@@ -177,3 +177,210 @@ def subsample_interleaved_stockholm(input_file, fraction=0.5, seed=42):
 
     print(f"Wrote {outname}")
     return outname
+
+# RQ3
+import random
+from pathlib import Path
+
+
+def local_swap(seq):
+    """
+    Perform one local ±1 alignment swap.
+    """
+    seq = list(seq)
+
+    valid_positions = [
+        i for i in range(1, len(seq))
+        if seq[i] != "-" and seq[i-1] != "-"
+    ]
+
+    if valid_positions:
+        i = random.choice(valid_positions)
+        seq[i], seq[i-1] = seq[i-1], seq[i]
+
+    return "".join(seq)
+
+
+def perturb_sequence(seq, n_shifts=5):
+    """
+    Apply multiple local swaps to a sequence.
+    """
+    for _ in range(n_shifts):
+        seq = local_swap(seq)
+    return seq
+
+
+def perturb_stockholm_local(input_file, noise_percent, seed):
+    random.seed(seed)
+
+    input_file = Path(input_file)
+
+    with open(input_file) as f:
+        lines = f.readlines()
+
+    # Collect unique sequence IDs
+    seq_ids = []
+
+    for line in lines:
+        if line.startswith("#") or line.strip() == "" or line.strip() == "//":
+            continue
+
+        seq_id = line.split()[0]
+
+        if seq_id not in seq_ids:
+            seq_ids.append(seq_id)
+
+    n_perturb = max(1, int(len(seq_ids) * noise_percent / 100))
+    perturbed_ids = set(random.sample(seq_ids, n_perturb))
+
+    outpath = Path(f"RQ3/{noise_percent}/{seed}/RF00162_{noise_percent}_{seed}.sto")
+
+    with open(outpath, "w") as out:
+        for line in lines:
+
+            if line.startswith("#") or line.strip() == "" or line.strip() == "//":
+                out.write(line)
+
+            else:
+                parts = line.rstrip("\n").split()
+
+                seq_id = parts[0]
+                seq = parts[-1]
+
+                if seq_id in perturbed_ids:
+                    seq = perturb_sequence(seq, n_shifts=5)
+
+                prefix = line[:line.find(parts[-1])]
+                out.write(prefix + seq + "\n")
+
+    print(
+        f"Created {outpath} "
+        f"({n_perturb}/{len(seq_ids)} sequences perturbed, 5 shifts each)"
+    )
+
+    import random
+from pathlib import Path
+
+
+def shift_block(seq_list, start, end, direction):
+    """
+    Shift a contiguous block by ±1 position.
+    """
+    if direction == "left" and start > 0:
+        block = seq_list[start:end]
+        seq_list[start-1:start-1] = block
+        del seq_list[end]
+
+    elif direction == "right" and end < len(seq_list):
+        block = seq_list[start:end]
+        del seq_list[start:end]
+        seq_list[start+1:start+1] = block
+
+    return seq_list
+
+
+def apply_block_misalignment(seq, n_blocks=2):
+    """
+    Apply block-level alignment perturbations.
+    Each block: length 3–8, shift ±1.
+    """
+    seq = list(seq)
+
+    for _ in range(n_blocks):
+
+        L = random.randint(3, 8)
+
+        if len(seq) <= L + 2:
+            continue
+
+        start = random.randint(1, len(seq) - L - 1)
+        end = start + L
+
+        direction = random.choice(["left", "right"])
+
+        seq = shift_block(seq, start, end, direction)
+
+    return "".join(seq)
+
+
+def perturb_stockholm_block(input_file, noise_percent, seed):
+    random.seed(seed)
+
+    input_file = Path(input_file)
+
+    with open(input_file) as f:
+        lines = f.readlines()
+
+    # collect sequence IDs
+    seq_ids = []
+
+    for line in lines:
+        if line.startswith("#") or line.strip() == "" or line.strip() == "//":
+            continue
+
+        seq_id = line.split()[0]
+        if seq_id not in seq_ids:
+            seq_ids.append(seq_id)
+
+    n_perturb = max(1, int(len(seq_ids) * noise_percent / 100))
+    perturbed_ids = set(random.sample(seq_ids, n_perturb))
+
+    outpath = Path(
+        f"RQ3_2/{noise_percent}/{seed}/RF00162_{noise_percent}_{seed}.sto"
+    )
+
+    with open(outpath, "w") as out:
+        for line in lines:
+
+            if line.startswith("#") or line.strip() == "" or line.strip() == "//":
+                out.write(line)
+
+            else:
+                parts = line.rstrip("\n").split()
+                seq_id = parts[0]
+                seq = parts[-1]
+
+                if seq_id in perturbed_ids:
+                    seq = apply_block_misalignment_safe(seq, n_blocks=2)
+
+                prefix = line[:line.find(parts[-1])]
+                out.write(prefix + seq + "\n")
+
+    print(
+        f"Created {outpath} "
+        f"({n_perturb}/{len(seq_ids)} sequences, block misalignment)"
+    )
+
+import random
+
+
+def apply_block_misalignment_safe(seq, n_blocks=2):
+    """
+    Safe block misalignment that preserves alignment length.
+    """
+    seq = list(seq)
+
+    for _ in range(n_blocks):
+
+        L = random.randint(3, 8)
+
+        if len(seq) <= L + 2:
+            continue
+
+        start = random.randint(1, len(seq) - L - 1)
+        end = start + L
+
+        direction = random.choice(["left", "right"])
+
+        block = seq[start:end]
+
+        # replace original block with gaps
+        seq[start:end] = ["-"] * L
+
+        if direction == "left" and start > 0:
+            seq[start-1:start-1] = block[:-1]
+
+        elif direction == "right" and end < len(seq):
+            seq[end:end] = block[1:]
+
+    return "".join(seq)
