@@ -1,0 +1,36 @@
+# STOCKHOLM 1.0
+#=GF ID RF00162_SAM
+#=GF AC RF00162
+#=GF DE SAM riboswitch aptamer (S box leader)
+#=GF AU Ontiveros-Palacios N; 0000-0001-8457-4455
+#=GF GA 44.4
+#=GF NC 44.3
+#=GF TC 44.4
+#=GF R2R SetDrawingParam prefixSsWithPkInDrawings false
+#=GF R2R SetDrawingParam prefixSsWithPkInDrawings false
+#=GF NUM_COV 6
+#=GF WEIGHT_MAP BA000028_3_2365513-2365403 1.21792 AP006627_1_3104693-3104588 1.07961 URS000080E1B3_911092_1-94 0.851232 URS000080DF6B_911092_1-94 0.851232
+#=GF USED_GSC TRUE
+#=GF DID_FRAGMENTARY FALSE.  globalOuterFirst,Last=0,117
+#=GF R2R keep allpairs
+
+
+BA000028_3_2365513-2365403                CUCUUAUUCAGAGUUGGUGGAGGGACAGACCCGAUGAAGCCCAGCAACCAUCACUACUGGU----GAAAAGGUGCUAAUCUGAUGCAAGGAUAAUAGU-UCCUUGAACAAUAAGAG-
+AP006627_1_3104693-3104588                UUCUUAUCGAGAG-AGGUGGAGGGACUGGCCCAAUGAAACCCGGCAACCGCAAGUU--CGC----UUGAAGGUGCUAAAUC-CUGCAAAGCA--UAUGGGCUUUGGGAGAUGAGAG-
+URS000080E1B3_911092_1-94                 GGCUUAUCAAGAG-AGGUUUAGGGACUGGCCCGACGAAACCCGGCAACC------------AGAA---AUGGUGCCAAUUC-CUGCAGCG-----GAA-ACGUUGAAAGAUGAGCCG
+#=GR URS000080E1B3_911092_1-94  2YDH_A_SS ((((((((....(..(((...(((..{{{)))......))))(((..((............(.......))).)))...(}.}}.(((((..........)))))..))))))))).
+URS000080DF6B_911092_1-94                 GGCUUAUCAAGAG-AGGGCAAGAGACUGGCUUGAUGACCCCCGGCAACCA--------AAA-------AUGGUGCCAAUUC-CUGCAGAG-----GAA-ACGUUGAAAGAUGAGCCA
+#=GR URS000080DF6B_911092_1-94  4AOB_A_SS ((((((((....(..(((...(((.{{{{)))......))))(((..(((...................))).)))...(}.}}}(((((..........)))))..))))))))).
+#=GC SS_cons <<<<<<<<.......<<<...<<<.....>>>......>>>.<<<.<<<.....................>>>>>>.........<<<<<<........>>>>>>...>>>>>>>>.
+#=GC RF cucUuAUcaAGAG.gGGcgGAGGGAcuGGCCCuaUGAAgCCCgGCAACCccccuuuuuaag....gggAaGGUGCcAAuuC.CugCgggcca..uaau.ggcccGaaagAUaAgag.
+#=GC RNA_motif_k_turn =================XXXXX=========XXXXXXXX==============================================================================
+#=GC RNA_ligand_SAM ======X===X==================================X==========================XXX===================================X======
+#=GC RNA_structural_elements [P1=5p=][J1][============================][================================][3][============================[=P1=3p]=
+#=GC cons nnCUUAUYnAGAG-nGGUnRAGGGACnGRCCCRAUGAARCCCRGCAACCRnnnnnn--nRn----nnnAnGGUGCYAAnYY-nUGCARRGnn--nRnn-nCnUUGRRnRAURAGnn-
+#=GC conss 111111111111101113131131111111331131133111111111134444440033300004441111111111111011111131440041110111111111111111110
+#=GC col_entropy_0 100000001000000000110000000000000000001000000000011101010011100001110000000000000000000010110000110101000000000000001
+#=GC col_entropy_1 .....................................................................................................................
+#=GC col_entropy_2 590000085000088007440070008080778070075000800000045595958894977775550900000900888880000950558899558505000888800800994
+#=GC col_entropy_3 580000085000088004000040008080444040040000800000075585858880844445550800000800488880000800558888554505000448800800880
+#=GC cov_SS_cons 22........................................................................................2........2..............22.
+//

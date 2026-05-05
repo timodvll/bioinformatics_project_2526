@@ -118,3 +118,62 @@ def extract_helices(pairs):
         helices.append(helix)
 
     return helices
+
+
+#RQ 2:
+import random
+from pathlib import Path
+
+
+def subsample_interleaved_stockholm(input_file, fraction=0.5, seed=42):
+    random.seed(seed)
+    input_file = Path(input_file)
+
+    with open(input_file) as f:
+        lines = f.readlines()
+
+    # collect sequence IDs
+    seq_ids = []
+
+    for line in lines:
+        if line.startswith("#") or line.strip() == "" or line.strip() == "//":
+            continue
+
+        seq_id = line.split()[0]
+
+        if seq_id not in seq_ids:
+            seq_ids.append(seq_id)
+
+    n_keep = max(1, int(len(seq_ids) * fraction))
+    keep_ids = set(random.sample(seq_ids, n_keep))
+
+    print(f"Keeping {n_keep}/{len(seq_ids)} sequences")
+
+    outname = input_file.stem + f"_{int(fraction * 100)}.sto"
+
+    with open(outname, "w") as out:
+        for line in lines:
+
+            if (
+                line.startswith("#=GC")
+                or line.startswith("# STOCKHOLM")
+                or line.strip() == "//"
+                or line.strip() == ""
+            ):
+                out.write(line)
+
+            elif line.startswith("#=GR"):
+                seq_id = line.split()[1]
+                if seq_id in keep_ids:
+                    out.write(line)
+
+            elif line.startswith("#"):
+                out.write(line)
+
+            else:
+                seq_id = line.split()[0]
+                if seq_id in keep_ids:
+                    out.write(line)
+
+    print(f"Wrote {outname}")
+    return outname

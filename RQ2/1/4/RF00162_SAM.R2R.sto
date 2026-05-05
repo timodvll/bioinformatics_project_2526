@@ -1,0 +1,49 @@
+# STOCKHOLM 1.0
+#=GF ID RF00162_SAM
+#=GF AC RF00162
+#=GF DE SAM riboswitch aptamer (S box leader)
+#=GF AU Ontiveros-Palacios N; 0000-0001-8457-4455
+#=GF GA 44.4
+#=GF NC 44.3
+#=GF TC 44.4
+#=GF R2R SetDrawingParam prefixSsWithPkInDrawings false
+#=GF NUM_COV 8
+#=GF WEIGHT_MAP AE017333_1_1487506-1487363 0.993788 AAXV01000005_1_126573-126679 1.00299 CP000232_1_2070462-2070570 0.993788 ACEU01000265_1_7365-7210 1.00943
+#=GF USED_GSC TRUE
+#=GF DID_FRAGMENTARY FALSE.  globalOuterFirst,Last=0,158
+#=GF R2R keep allpairs
+#=GF SUBFAM_KEEPALL 1
+#=GF R2R SetDrawingParam disableSubfamWeightText true
+#=GF SUBFAM_KEEPALL 0
+#=GF R2R ignore_ss_except_for_pairs _pk_1 outline-no-bpannot
+#=GF SUBFAM_pknot1_R2R ignore_ss primary
+#=GF SUBFAM_PERL_PRED pknot1 return 1;
+#=GF SUBFAM_pknot1_R2R subst_ss _pk_1 primary
+#=GF SUBFAM_pknot1_R2R no5
+#=GF SUBFAM_pknot1_R2R outline_nuc all
+#=GF SUBFAM_pknot1_R2R set_dir pos0 90 f
+#=GF SUBFAM_KEEPALL 1
+#=GF R2R SetDrawingParam autoBreakPairs true
+#=GF SUBFAM_KEEPALL 0
+
+
+AE017333_1_1487506-1487363   CUCUUAUCGAGAGUUGGGUGAAGGA-CUGGCCUAAUGAUCCCAACAGCAACCGACCGUAAUACCAUUGUGAAAUGGGG------CGCGAAUCUCUGCGCCGCUAGGGCACGGUGCUAAUUCCAUCAGACUUUGAA-------UUCUGAGAGAUAAGAG
+AAXV01000005_1_126573-126679 UUCUUAUCAAGAG-AGACGGAGGGA-UCGGCCCGAUGAAGUC-UCAGCAACCAGCUCA--------------------------------------------AUCAGUAUGGUGCUAAUUCCUUUUGGCAAAAUCU----AAGCCUGAAAGAUGAGAA
+CP000232_1_2070462-2070570   CUCUUAUCGAGAGCUGGCGGAGGGA-CUGGCCCGAUGAAGCC--CGGCAACCGGCCUCUUAGA-------------------------------------ACCCAGGUACGGUGCCAAUUCCUGCAGGA---UUU------CUCCUGGCAGAUGAGAG
+ACEU01000265_1_7365-7210     CGCUCAUCCAGAG-GGGCAGAGGGAUACGGCCCGUUGAAGCC-CCGGCAACCCUCCAGCCAGUCUCCGCGCGGUUCACCGAUACCGCCACCGAAGGCCCUGGCUCGGGAAGGUGCCAAUUCCGUCUCGCGGCGAGAUGCGCCGCGGGGAAGAUGAGGA
+#=GC SS_cons <<<<<<<<....<.<<<<...<<<......>>>......>>>.>><<<<.<<<<<<................................................>>>>..>>>>>>...<....<<<<<<...........>>>>>>..>>>>>>>>>
+#=GC RF cucUuAUcaAGAG.gGGcgGAGGGA.cuGGCCCuaUGAAgCC.cCgGCAACCccccuuuuu.........................................aaggggAaGGUGCcAAuuCCugCgggccauaau......ggcccGaaagAUaAgag
+#=GC RNA_motif_k_turn =================XXXXX==========XXXXXXXX======================================================================================================================
+#=GC RNA_ligand_SAM ======X===X=====================================X===============================================================XXX=====================================X=====
+#=GC RNA_structural_elements [P1=5p=][J1][===============================][=====================================================================][3][==============================[=P1=3p]
+#=GC SS_cons_pk_1 ..........................<<<<..........................................................................................>>>>..................................
+#=GC cons YnCUYAUCnAGAG-nGRCRGAGGGA-nYGGCCCGnUGAAGYC-nCRGCAACCnnCYnnnnnnnnnnnnnnnnnnnnnn------nnnnnnnnnnnnnnnnnnnYnRGnAnGGUGCYAAUUCCnUYnnGCnnnRnnn----nnnCnnGRRAGAUGAGRR
+#=GC conss 11111111111110111331131110111111331111331103111111111111114444444444444444444400000044444444444444444413111111111111111111131113333331140000431311113111131111
+#=GC col_entropy_0 00000000100001100010000000100000000000000001000000001100111111101110101110111100000000010111111001011111100101000000000000100000011110110000110000001000000000
+#=GC col_entropy_1 ..............................................................................................................................................................
+#=GC col_entropy_2 88008000500004508850080008590000888000888089090000005508999944995559595559555588888899959555555995954544480505000009000000588988899949958888549888094000080089
+#=GC col_entropy_3 11001000000009001000000001090000001000001009090000000001999999990009090009000011111199909000000990909099910000000009000000001910099999901111099011099000000019
+#=GC cov_SS_cons ..............2..2.....................2...2........2......................................................2..................................................
+#=GC cov_SS_cons_pk_1 ..............................................................................................................................................................
+#=GC SUBFAM_pknot1_R2R_LABEL --------------------------....------------------------------------------------------------------------------------------....----------------------------------
+//
