@@ -1,0 +1,194 @@
+# STOCKHOLM 1.0
+#=GF ID tmRNA
+#=GF AC RF00023
+#=GF DE transfer-messenger RNA
+#=GF AU Gardner PP; 0000-0002-7808-1213
+#=GF GA 47.0
+#=GF NC 46.9
+#=GF TC 47.1
+#=GF PI 10Sa_RNA; SsrA
+#=GF SE Published; PMID:19617710
+#=GF SS Published; PMID:19617710
+#=GF TP Gene;
+#=GF BM cmbuild -F CM SEED
+#=GF CB cmcalibrate --mpi CM
+#=GF SM cmsearch --cpu 4 --verbose --nohmmonly -T 16.62 -Z 2958934 CM SEQDB
+#=GF CL CL00001
+#=GF DR SO; 0000584; tmRNA;
+#=GF DR URL; http://merops.sanger.ac.uk/cgi-bin/merops.cgi?id=S14.001;
+#=GF DR GO; 0006401; RNA catabolic process;
+#=GF RN [1]
+#=GF RM 8972778
+#=GF RT Phylogenetic analysis of tmRNA secondary structure.
+#=GF RA Williams KP, Bartel DP
+#=GF RL RNA 1996;2:1306-1310.
+#=GF RN [2]
+#=GF RM 8990402
+#=GF RT Probing the structure of the Escherichia coli 10Sa RNA (tmRNA).
+#=GF RA Felden B, Himeno H, Muto A, McCutcheon JP, Atkins JF, Gesteland RF
+#=GF RL RNA 1997;3:89-103.
+#=GF RN [3]
+#=GF RM 11752287
+#=GF RT The tmRNA Website: invasion by an intron.
+#=GF RA Williams KP
+#=GF RL Nucleic Acids Res 2002;30:179-182.
+#=GF RN [4]
+#=GF RM 12140330
+#=GF RT BRUCE: a program for the detection of transfer-messenger RNA genes in
+#=GF RT nucleotide sequences.
+#=GF RA Laslett D, Canback B, Andersson S
+#=GF RL Nucleic Acids Res 2002;30:3449-3453.
+#=GF RN [5]
+#=GF RM 12520048
+#=GF RT tmRDB (tmRNA database).
+#=GF RA Zwieb C, Gorodkin J, Knudsen B, Burks J, Wower J
+#=GF RL Nucleic Acids Res. 2003;31:446-447.
+#=GF RN [6]
+#=GF RM 19617710
+#=GF RT Variations on the tmRNA gene.
+#=GF RA Mao C, Bhardwaj K, Sharkady SM, Fish RI, Driscoll T, Wower J, Zwieb C,
+#=GF RA Sobral BW, Williams KP
+#=GF RL RNA Biol. 2010;6:355-361.
+#=GF CC Bacterial tmRNA, also known as 10Sa RNA or SsrA, is named for its dual
+#=GF CC tRNA and mRNA-like properties. Its role is to liberate the mRNA from a
+#=GF CC stalled ribosome. To accomplish this part of the tmRNA is used as a
+#=GF CC reading frame that ends in a translation stop signal. The broken mRNA is
+#=GF CC replaced in the ribosome by the tmRNA and translation of the tmRNA leads
+#=GF CC to addition of a proteolysis tag to the incomplete protein enabling
+#=GF CC recognition by a protease. Recently a number of permuted tmRNA genes have
+#=GF CC been found encoded in two parts. tmRNAs have been identified in eubacteria
+#=GF CC and some chloroplasts but are absent from archaeal and eukaryote nuclear
+#=GF CC genomes.
+#=GF WK Transfer-messenger_RNA
+#=GF SQ 477
+
+FM209186.1/4965959-4966311     GGGGCCGAU--UAGGAUU--CGACGCCGGUAACAA------A-A-CUUG----AGGGGCAUGCCGAGCU---GGUAGCAG------AACUCGUAAAUU-----CGCUGCUGC----AAACUUAUAGUUGCCAACGACGACAACUAC------------------------------------------------------
+AY040838.1/1-298               ------------------------GGGGAACGUGU------UUG-CUUGGG---AUG-CGAGCCGGGUU---GCCGCCAG-------GACCGUAAA--------AAGGGCGG----AAGGCUUUAAUUGCCGAAGAUA--------------------------------------------------------------
+AY911524.1/1-307               ------------------------AGGGAUAGUU--------CG-AGCUUAG-GUUG-CGAGUCGAGG-----GGAUCG-------GCCUCGUUAA---------AACGUCA----AAGCCUAUAACUGGCAAACAACAAAACAA-C-----------------------------------------------------
+AF375579.1/1-299               ---------------------------CAUUG---------UCG-CGCAUGA-ACUG-CAACUGGUGG-----UGAUG---------UCACCUAA---------AUCCAUCGCA-GAUAAAUAUAACUGCUAAAAAUAACACUUC-------------------------------------------------------
+U68075.1/21-331                --------N---------------AAGAUUCACGA--------A-ACCCA---AGGUGCAUGCCGAGG-----UGCGGUAG-----GCCUCGUUAAC-------AAACCGCA-----AAAAAAUAGUCGCAAACGACGAAAACUAC------------------------------------------------------
+CP000964.1/1196116-1195754     GGGGCUGAU-UCUGGAUU--CGACGGGAUUUGCGA--------A-ACCCA---AGGUGCAUGCCGAGG-----GGCGGUUG-----GCCUCGUAAA--------AAGCCGCA------AAAAAUAGUCGCAAACGACGAAAACUAC------------------------------------------------------
+AE017334.2/4834863-4834509     GGGGACGUU--ACGGAUU--CGACAGGGAUAGUU--------CG-AGCUUAG-GUUG-CGAGUCGAGG-----GGAUCG-------GCCUCGUUAA---------AACGUCA----AAGCCUAUAAUUGGCAAACAAAACAA----------------------------------------------------------
+AF481102.1/4584-4321           GGGGAUGAC-AGGGAUU---CGACA-CGGGGCAAG------GGA-UGGG--G-UGC--CAUGCCGAAC------AGCCCAA-----CGUUAG--------------GGGC---------ACGAAAGGUGCACC-------------------------------------------------------------------
+AM286415.1/1116549-1116169     GGGGCUGAU-UCUGGAUU--CGACGGGAUUCGCGA--------A-ACCCA---AGGUGCAUGCCGAGG-----UGCGGAG------GCCUCGUAAA--------AAACCGCA----AAAAAAAUAAUUGCAAACGACUCGCAAUACGA----------------------------------------------------
+CR522870.1/569610-569245       GGGGGCGAA--ACGGCUU--CGACGGGGAUGUAUA------A-G-CUCU-AC-GUUG-CAUGUCGAGC----AACUGCCA-------GCUCGUAAAA------A-AGGCGGAA---ACUAAUAUAAUCGCAGACGAUUAUAAC---------------------------------------------------------
+CP000046.1/875955-876313       GGGGACGUU-CAUGGAUU--CGACAGGGGUCCCC--------CG-AGCUCAU-UAAG-CGUGUCGGAG-----GGUUGU--------CUUCGUCAUCAA--CACACACAGUU------UAUAAUAACUGGCAAAUCAAACAAUAA-------------------------------------------------------
+CP000383.1/1433554-1433957     GGGGUCGA---CAGGAAU--UGACAGGUUGAGU--GA---UUAC--G-UGUG-UAAG-CAUGCAGGCUC---AUGGGAUGA-----GAGCCUUAAAAG-----AUAGUUCCG------AACAAUAAUUGGCGAAGAAUCUUAC---------------------------------------------------------
+AY911522.1/1-341               ------------------------GCCGGUAGCGA------A-A-CUCU----AGGUGCAUGCCGAGUU---GGUAACAG------AACUCGUAAAUC-----CACUGUUGCA--ACUUUCUAUAGUUGCCAAUGACGAAACCUACGGCGAG------------------------------------------------
+CU928145.2/2978730-2979092     GGGGCUGAU-UCUGGAUU--CGACGGGAUUUGCGA--------A-ACCCA---AGGUGCAUGCCGAGG-----GGCGGUUG-----GCCUCGUAAA--------AAGCCGCA------AAAAAUAGUCGCAAACGACGAAAACUAC------------------------------------------------------
+BA000007.2/3475602-3475964     GGGGCUGAU-UCUGGAUU--CGACGGGAUUUGCGA--------A-ACCCA---AGGUGCAUGCCGAGG-----GGCGGUUG-----GCCUCGUAAA--------AAGCCGCA------AAAAAUAGUCGCAAACGACGAAAACUAC------------------------------------------------------
+CP000569.1/2059595-2059960     GGGGCUGAU-UCUGGAUU--CGACGGGAUUAGCGA--------A-GUCCA---AGGUGCACGUCGAGG-----UGCGGUAG-----GCCUCGUAAAC-------AAACCGCA-----AAAAAAUAGUCGCAAACGACGAACAAUAC------------------------------------------------------
+CP000323.1/2008654-2008296     GGGGAUGUU--CUGGCUU--CGACGCUGGUGAUGA------A-A-CUCAA---UGAUGCAUGUCGAGAG---UAUAUGUC------CUCUCGUUAAUC-----A-AACAUAU----AUUGUUAUAGUCGCAAACGACGAAAAUUAC------------------------------------------------------
+BX908798.1/630473-630069       GGGGGUGU--UACGGUUU--CGACUAGGAA-----G-----UGA-AAAAUUG-AUUG-CAUGCGGAGGA---UAUCGGUUG-----GCCUCCUAAA-------AAAACCGGU----AAAACAAUAAAUGCUAACAAUAGCAAUAAAAUUGCAAAAGUUGACUUC------------------------------------
+AP008232.1/3071644-3072027     GGGGCUGAU-CCUGGACU--CGACGGGAUUUGCGA--------A-ACCUA---AGGUGCAUGCCGAGG-----UGAGGCUG-----GCCUCGUAAA--------AAACCUCA-----AAAAAAUAAUUGCAAACGACUCGCAAUUCGAAU--------------------------------------------------
+AF389964.1/19-339              --------G-------------ACGGGAUUCGCGA--------A-ACCCA---AGGUGCAUGCCGAGG-----GGCGGUUG-----GCCUCGUAAA--------AAGCCGCA-----AAAAAAUAGUCGCAAACGACGAAAACUGC------------------------------------------------------
+AF137379.1/97379-97053         GGGGUUGU--CAUGGAAU--CGACGUCUCUUCUAAG----AACG-AAAGGUU-AAAG-CAGGUCGAGG------UCGAAGAU---GGACUCGUACUCU----CCACUUCAUU----GCUUGAUUGCAUGCUAAUCAGAUUCUUCCUUUCUCUCGCCGGGUAGCCGUUGCUGCUUAAGCGAGUUUCUAGUGC---------
+CP000388.1/2078693-2078337     GGGGCUGAU-UUUGGAUU--CGACAAGAUUCUUGA--------G-GCUUU---AGGUGCAUGCAGAGG-----AGCGGUUU-----GCCUCUUAAA--------AAGCCGCA-----UUUAAAUAGUCGCAAACGACGAAAACUA-------------------------------------------------------
+AALF02000019.1/36194-36574     GGGGCUGAU-UCUGGAUU--CGACGGGAUUCGCGA--------A-ACCCA---AGGUGCAUGCCGAGG-----UGCGGAG------GCCUCGUAAA--------AAACCGCA----AAAAAAAUAAUUGCAAACGACUCGCAAUACGA----------------------------------------------------
+#=GC SS_cons                   [[[[[[[,,..,,,,,,,..,((((((((((((--......-((.(((((((.((((.(((((AAAAA.....<<<<<<<......_aaaaa_____......._>>>>>>>.....,,,,,,,,,,,,,,,,,,,,,,,,,,,,.......................................................
+#=GC RF                        GGGGguGAu..cuGGaUU..CGACgggaguugcGA......aca.ccccugg.aggg.CAUGCCGAGG.....ggcgguu......gCCUCGUAAAu.......Aaaccgcc.....AAAAAAUAAuUGCaAACgAcaAaaAcUA.......................................................
+
+FM209186.1/4965959-4966311     -----------------------------------------------------------------------------------------------------------------------GCUCUAGCUGC--------------------------------------UUAA-----------------------UGCGG
+AY040838.1/1-298               -------------------------------------------------------------------------------------------------------------------ACUACGCUUUAGCUG------------------------------------C-UUAAU---------------------UGCAGU
+AY911524.1/1-307               -------------------------------------------------------------------------------------------------------------------UUCGCUUUAGCUGCU---------------------------------------UAAU-----------------------AGCG
+AF375579.1/1-299               -------------------------------------------------------------------------------------------------------------------UUACGCACUCGCUGC--------------------------------------CUAAAC---------------------ACCAG
+U68075.1/21-331                -----------------------------------------------------------------------------------------------------------------------GCACUA-GCAG-------------------------------------CUUAAUA--------------------ACCUGC
+CP000964.1/1196116-1195754     -----------------------------------------------------------------------------------------------------------------------GCUUUA-GCAG-------------------------------------CUUAAUA--------------------ACCUGC
+AE017334.2/4834863-4834509     -------------------------------------------------------------------------------------------------------------------UCUUUCUUUAGCUGC--------------------------------------UUAAUU----------------------GCAC
+AF481102.1/4584-4321           ----------------------------------------------------------------------------------------------------------------------------------------------------------------------AAGUAAUA----------------------GGUU
+AM286415.1/1116549-1116169     -----------------------------------------------------------------------------------------------------------------AUCUGCUGCUUUAGCAG-------------------------------------CUUAAUCA-------------------GCCUAA
+CR522870.1/569610-569245       -------------------------------------------------------------------------------------------------------------------UACGCAGUA--GCAG-------------------------------------CUUAAUA--------------------A-CUGU
+CP000046.1/875955-876313       -------------------------------------------------------------------------------------------------------------------UUUCGCAGUAGCUGC--------------------------------------CUAAUC----------------------GCA-
+CP000383.1/1433554-1433957     -----------------------------------------------------------------------------------------------------------------------GCCAUGGCUGCUUAAUUACGAACUAA------GUUUGUAAUAAUGAGCGUUGAGUGGAGCUGUUAAGAACAGCACC--CGG
+AY911522.1/1-341               --------------------------------------------------------------------------------------------------------------GAAACCUACGCUCUCGCAGC--------------------------------------GUAA------------------------GUGA
+CU928145.2/2978730-2979092     -----------------------------------------------------------------------------------------------------------------------GCUUUA-GCAG-------------------------------------CUUAAUA--------------------ACCUGC
+BA000007.2/3475602-3475964     -----------------------------------------------------------------------------------------------------------------------GCUUUA-GCAG-------------------------------------CUUAAUA--------------------ACCUGC
+CP000569.1/2059595-2059960     -----------------------------------------------------------------------------------------------------------------------GCUUUA-GCAG-------------------------------------CUUAAUA--------------------ACCUGC
+CP000323.1/2008654-2008296     ------------------------------------------------------------------------------------------------------------------------GCUCUAGCAG-------------------------------------CUUAAAC--------------------C-CUGU
+BX908798.1/630473-630069       -------------------------------------------------------------------------------------------------CAGGAAGGGACUUUUGCUAGAGCUGCGUAAGAC-------------------------------------CUAACA-----------------------GUCU
+AP008232.1/3071644-3072027     ----------------------------------------------------------------------------------------------------------------CUAACGCUGCUUUAGCAG-------------------------------------CUUAAUCA-------------------GCUUAA
+AF389964.1/19-339              -----------------------------------------------------------------------------------------------------------------------GCUUUA-GCAG-------------------------------------CUUAAUA--------------------ACCUGC
+AF137379.1/97379-97053         ----------------------------------------------------------------------CACUUUGUCACUAGUUUGUAUUAUGAGUUUCACACUCACUUCAAUG------------------------------------------------------------------------------------
+CP000388.1/2078693-2078337     ---------------------------------------------------------------------------------------------------------------------CGCUCUAG-CCGC--------------------------------------UUAA--U-------------------AACCGG
+AALF02000019.1/36194-36574     -----------------------------------------------------------------------------------------------------------------AUCUGCUGCUUUAGCAG-------------------------------------CUUAAUCA-------------------GCCUAA
+#=GC SS_cons                   ...................................................................................................................,,,,,,<<<<<<<<<......................................______....................._>>>>
+#=GC RF                        ...................................................................................................................uuucgcucuaggcgc......................................UUAAUa.....................cgcgc
+
+FM209186.1/4965959-4966311     CUAG------------------------------------------------------------------------CAGUCGC------------------UAGGGGAU-----GCCUGU-A----AACCCG--AA----------------------------------------------------------------
+AY040838.1/1-298               CGAA------------------------------------------------------------------------CCUCUU----------------CUC-CUCUGU------GCUCUC-G----GUGA-----GGAUG------------------------------------------------------------
+AY911524.1/1-307               CUUAGCG---------------------------------------------------------------------GUUCCU--------------CCCU---CCAUU------GCCCAU-------GUGG----UAGGG-----------------------------------------------------------U
+AF375579.1/1-299               CUUGCGU---------------------------------------------------------------------AGCUGAU--------------GAU---CGUUC------GCCGAU-------GGCG-----GCC------------------------------------------------------------U
+U68075.1/21-331                AUAGAGC---------------------------------------------------------------------CCUUCUA-------------CCCU--AGCUUGC-----CUGU-GUC----CUAG------GGAAU-----------------------------------------------------------
+CP000964.1/1196116-1195754     UCUGAGC---------------------------------------------------------------------CCUCUCU-------------CCCUA--GCUUCC-----GCUC-UU------AAGA----CGGGGAUC-------------------------------------------------------AA
+AE017334.2/4834863-4834509     UAAAG-----------------------------------------------------------------------GUUCCU--------------CCCU---CCAUC------GUCCAU-------GUGG----UAGGG-----------------------------------------------------------U
+AF481102.1/4584-4321           CACC-----------------------------------------------------------------------AUUGUGG-------------CUAAC-------------GAUUGCAU---------------CGA-------------------------------------------------------------
+AM286415.1/1116549-1116169     GAAACUGAAG--------------------------------------------------------------AUUCCCUCUCU-------------CCCUA--GCCUCC-----GCUC-UU------AGGA----CGGGGAU--------------------------------------------------------CA
+CR522870.1/569610-569245       CAUACUG--------------------------------------------------------------------CCGUCUC--------------UCCAG--UCCUCC-----GCUCAU------GAGGG----UUGGG-U---------------------------------------------------------C
+CP000046.1/875955-876313       CUCUGC----------------------------------------------------------------------AUCGCC-------------UAACA---GCAUU------UCCUAU-------GUGC-----UGUUA-----------------------------------------------------------
+CP000383.1/1433554-1433957     CCA--------------------------------------------------------------------------CAUCUC--------------ACAC---GGCUUC---UGUUCUGC-----GGGCU----GUGA--A--------------------------------------------------------CU
+AY911522.1/1-341               CCUUUGCUUCUGGUAGC------------------------------------------------UUCGGCUCCAGCAAUCAC------------------UAGGGGAU-----GCCUGU-A----AACCCG--AA----------------------------------------------------------------
+CU928145.2/2978730-2979092     UUAGAGC---------------------------------------------------------------------CCUCUCU-------------CCCUA--GCCUCC-----GCUC-UU------AGGA----CGGGGAU--------------------------------------------------------CA
+BA000007.2/3475602-3475964     UUAGAGC---------------------------------------------------------------------CCUCUCU-------------CCCUA--GCCUCC-----GCUC-UU------AGGA----CGGGGAU--------------------------------------------------------CA
+CP000569.1/2059595-2059960     UCAUAGC---------------------------------------------------------------------CUUAUCG-------------CCUCA--GCUUCC-----GCUC-GU------AAGA----CGAGGGC--------------------------------------------------------AA
+CP000323.1/2008654-2008296     UU--------------------------------------------------------------------------ACUUGGU------------UG------CUGAUC----AUCUACA------GUUGG-------UCA-----------------------------------------------------------
+BX908798.1/630473-630069       UG-GUAGC-------------------------------------------------------------------C-CGAUAG--------------UCUG--AAACU-----GGACCGAG-----GGUUU----UAGAAU-----------------------------------------------------------
+AP008232.1/3071644-3072027     UAACCUGAAG--------------------------------------------------------------AUUCCCUCUCU-------------CCCUA--GCCUCC-----UCUC-UU------AGGA----CGGGGAU--------------------------------------------------------AA
+AF389964.1/19-339              UAAGAGC---------------------------------------------------------------------CCUCUCU-------------CCCUA--GCUUCC-----GCUC-UU------AAGA----CGGGGAAU-------------------------------------------------------AA
+AF137379.1/97379-97053         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CP000388.1/2078693-2078337     CUAAGCCCU-----------------------------------------------------------------UC--------------------CACUC-AUACUCU-----UUCU-GCU----AG-UA-----GAGGUU---------------------------------------------------------C
+AALF02000019.1/36194-36574     GAAACUGAAG--------------------------------------------------------------AUUCCCUCUCU-------------CCCUA--GCCUCC-----GCUC-UU------AGGA----CGGGGAU--------------------------------------------------------CA
+#=GC SS_cons                   >>>>>,,.....................................................................<<<<<<-.............<<<<-..<<<<__.....BBBBBBB....._>>>>....->>>>...........................................................-
+#=GC RF                        cuagagc.....................................................................ccucccu.............cccua..ccauuc.....GCccauu.....ggugg....cgggg...........................................................a
+
+FM209186.1/4965959-4966311     ACGACUGUCAG----AUAGAACAGGAUC-------------------------------------GCCGCC----AAG---UUCGCUGUAG------------------ACGU----AACGGCUAAA-A-----CUCAUACAGCUC---GCUCCAAGC----ACCCU----GCCA--CUC---G-GG----CGGCGCGGA
+AY040838.1/1-298               UAAGGGGUCAUU--U---AAGAGAGC--U---------------------------------GGCUUCGACCAAU--------UCUCGG----------------------A----GGUCCAAGCGA-G-----AUUUAUCGAAUA---GCCUGACCAA-----CCU--CUGUCUGCCGU---G-CGG----AAGG-AAG
+AY911524.1/1-307               AAGGGACUCAC----UUUAAGUGGGCUAC---------------------------------GCCGGAUUCCA----C----CGUCUGA---------------------------GGAAGAAGGAA-GAG--AA-CAACCAGAC----UAGCUCAUCGG-ACGCCC----GUCAGCAGG---C-AGA---AGAAUGAGC
+AF375579.1/1-299               GAAGCUCUAAA----CCUCAGUCGGAUAC---------------------------------GUUUUUAUG-----------GUGGCUU----------------------U----ACAUAAAAAAA-GAG---AUUUUAAAGCAC--CGCAAAUUUCU---GCUGUU-UGAGACUGGC----U-UU-----GGAAAUUU
+U68075.1/21-331                CGGAAGGUCAU---CCUUCAC-AGGAUC-------------------------------------GUGUGG---AAGU---CCUGCUCGGG-------------------GCG---GAAGCAUUAAA-AC-----CAAUCGAGCUA---GUCAAUUCGU----GGCG---UGUCU--CUC---C-GC----AGCGGGUUG
+CP000964.1/1196116-1195754     AGAGAGGUCAAA--CCCAAAA-GAGAUC----------------------------------G---CGUGG---AUGC---CCUGCCUGGG-------------------GUU---GAAGCGUUAAA-UC-----UAAUCAGGCUA---GUUUG-UUAG---UGGCG---UGUCU--GUC---C-GCA---GCUGG-CAA
+AE017334.2/4834863-4834509     AAGGGACUCAA----ACUAAGUGGACUAC---------------------------------GCCGGAGUUCG----C----CGUCUGA---------------------------GGACAAAGGAA-GAG--AA-CAACCAGACU--AGC-AACUUGG---AAGCC---UGUCGAUA-----G-GCC---GAAGAGUUC
+AF481102.1/4584-4321           CGCGUUAGUC-A-GAAGAGCAGUGGUAU----------------------------------A---GUGC------------GAAGGUA------------------------C-ACUGAGGGACUA-GG----CUGACGGUCAUA-------------------------GUGC--GAC--------------------
+AM286415.1/1116549-1116169     AGAGAGGUCAAA--CCUAAAA-GAGAUC----------------------------------G---CGUGG---ACAC---CUUGCCUGGG-------------------GUG---AAAGCGUUAAA-CC-----CAAUCAGGAUA---GUUUG-UUAG---UGGCG---UGUCC--GUC---C-GCA---GCUAA-CCG
+CR522870.1/569610-569245       CGAGGCGUC--G--ACCAAAAUGAGC--U---------------------------------AGCAAUCGGGUGGU---------GUUCU---------------------GGUCGCCCCGGCGCGA-AAA--UAUACAGAAUA-----GCGUUAUAGU---A-UCC--CUGUUC-CGAC---G-GA----AGCUAAAUC
+CP000046.1/875955-876313       ACGCGAUUCAA---C-CUUAAUAGGAUAU---------------------------------GCUAAACACUG----C----CGUUUGA------------------------A-GUCUGUUUAGAA-GAAA-CU-UAAUCAAACU--AGCAUCAUGUU-----GGU---UGUUUAUC-----A-CUU----UUCAUGAU
+CP000383.1/1433554-1433957     GAGAUGUCG------AACAGCAGGAC--------------------------------------UAGGGGAGUACA------AGUUGCG-----------------------GGUGCUUCGC--------G--AAAUUAAGUAACU----AAGGUUAUAGUUGGG------UGCCGGUG-------ACCUGCUACAGCUC
+AY911522.1/1-341               CUGAUUGUCAU----ACAGAACAGGAUC-------------------------------------GUCGCG----UAG---CACGUUGUGG------------------GCGA----AGUGACUAAA-A-----CUUACACAACUC---AUCCAAAGC----ACCCU----GCCC--GUC---G-GG----CGGCUGCGG
+CU928145.2/2978730-2979092     AGAGAGGUCAAA--CCCAAAA-GAGAUC----------------------------------G---CGUGG---AAGC---CCUGCCUGGG-------------------GUU---GAAGCGUUAAA-AC----UUAAUCAGGCUA---GUUUG-UUAG---UGGCG---UGUCC--GUC---C-GCA---GCUGG-CAA
+BA000007.2/3475602-3475964     AGAGAGGUCAAA--CCCAAAA-GAGAUC----------------------------------G---CGUGG---AAGC---CCUGCCUGGG-------------------GUU---GAAGCGUUAAA-AC----UUAAUCAGGCUA---GUUUG-UUAG---UGGCG---UGUCC--GUC---C-GCA---GCUGG-CAA
+CP000569.1/2059595-2059960     CGAUAAGUCA-C--CCAAAAC-GAGAUC----------------------------------G---UGUGG---ACGCC--GCCGUUUGAG-------------------GAU--CGAAACACUAAA-UU-----GAAUCAAACUA---GCUUA-UUUC---UUGCG---UGUCU--GUC---C-GCU---GGAGG-UAA
+CP000323.1/2008654-2008296     ACUAAGUUGAAGCGUCCGCAUGUAGAAG----------------------------------C--GCCACA---AGUG---AUUGUCUCAA------------------UUGC--U--UGGGUUUAA-A------AGUAGAGAAUC---GUCCUAUCC----AUCCU----GACU--GUC---G-GA----UCGGUGCGG
+BX908798.1/630473-630069       CUAUCGUCA------UUUUCUUGGU---------------------------------------AUGAAUUCUUUUUCU-CGCCGCUUCUA-------------------GGGAAAAGUUUUCA------AGAUUAAAUGAAGCA-------AACUAACUUCGAUUG---UUGCGUUCUG---C-AUAG-GAGUUAGGGA
+AP008232.1/3071644-3072027     AGAGAGGUCAAA--CCCAAAA-GAGAUC----------------------------------G---CGUGG---AUGU---CCUGCCUGGG-------------------GCU---GAAGCGUUAAA-AC-----UAAUCAGGCUA---GUUUG-UUAG---UGGCG---UGUCC--GUC---C-GCA---GCUGA-CAG
+AF389964.1/19-339              AGAGAGGUCAAA--CCCAAAA-GAGAUC----------------------------------G---CGUGG---AAGC---CCUGCCUGGG-------------------GUU---GAAGCGUUAAA-AC-----UAAUCAGGCUA---GUUUG-UCAG---UGGCG---UUCC----UC---C-GCA---GCUGG-CCA
+AF137379.1/97379-97053         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CP000388.1/2078693-2078337     -GGAAGGUCA----UCCCAGC-AGAAUA-------------------------------------GCGAGG--GAACC---UU-GUCUAAG-------------------GGU---GAACCGCGAAA-UA-----GUAUUAGGCCC---GCUAUGAGAA----AUCC---UGUCU--GCC---G-GA---GUUCGAAAUA
+AALF02000019.1/36194-36574     AGAGAGGUCAAA--CCUAAAA-GAGAUC----------------------------------G---CGUGG---ACAC---CUUGCCUGUG-------------------GUG---AAAGCGUUAAA-CC-----CAAUCAGGAUA---GUUUG-UUAG---UGGCG---UGUCC--GUC---C-GCA---GCUAA-CCG
+#=GC SS_cons                   ->>>>>>,,,,....,,,,bbbbbbb,,..................................,<<<<<<<<<_.__._...._CCCCCC_....................._..._>>>>>>>>>,,.,,,...,,,,,cccccc,...<<<<<<<<<<...--<<<..._DDDD..DDD...>.>>-...->>>>>>>>
+#=GC RF                        agggaggUCAa....cuuaAaugGGaUa..................................Gccgcgcaacu.aa.c....cggcuugg.....................g...gguugcgcggAA.aaa...uuaAaaaggcuu...gccucaugau...uagcc...UGuCc..gUc...g.gca...gaucaugag
+
+FM209186.1/4965959-4966311     GUUAACU--------------------------------------------------CAGUAGAGC-UGGC---UA---AGCAUGUA--GAACCG--AUAGCGG-------AGAGCUGGCGGA-CGGGGGUUCAAAUCCCCC-CGGCUCCACCA
+AY040838.1/1-298               GCGAAAU--------------------------------------------------CUAAAACGACAGAC---UA---CGCUCGUA---GUGUCCUUUGUGGG-------CAUUUCUUC----------------------------------
+AY911524.1/1-307               GAAUCGC--------------------------------------------------G--AAUAUGUUGAC---UA---CACUCGUA---GAAGCUUAAGUGCC-------GAUGUUUCU----------------------------------
+AF375579.1/1-299               GUUAAACU------------------------------------------------AG----AGAAAGUCC---UA---UGGUUGUA---GACGUUGAUGUAG-------CAAGGUG-------------------------------------
+U68075.1/21-331                GCGAAU---------------------------------------------------GUAAAGAG--UGAC---UA---AGCAUGUA--GUACCG--AGGAUGU-------AGUAAUUUUGGA-------------------------------
+CP000964.1/1196116-1195754     GCGAAU---------------------------------------------------GUAAAGAC--UGAC---UA---AGCAUGUA--GUGCCG--AGGAUGU-------AGGAAUUUCGGA-CGCGGGUUCAACUCCCGC-CAGCUCCACCA
+AE017334.2/4834863-4834509     GCGAAAUG------------------------------------------------CU--AAUAUAUCGAC---UA---CACUCGUA---GAAGCUUAAGUGCC-------GAUAUUUUUGGA-CGUGGGUUCGACUCCCAC-CGUCUCCACCA
+AF481102.1/4584-4321           --------------------------------------------------------------UGU--AAAC---AA---AGCAUGUU---GUGCAC--CCCACA------CCUCCCUGCUGGA-CGUGGGUUCAAUUCCCAC-CAUCUCCAGGC
+AM286415.1/1116549-1116169     GCGAAU---------------------------------------------------GUAAUGAC-UGGAC---UA---AGCAUGUA--GUGCCG--ACGGCGU-------AGUAAUUUCGGA-CGGGGGUUCAAAUCCCCC-CAGCUCCACCA
+CR522870.1/569610-569245       GCGAAA---------------------------------------------------ACUAAGUGG-GAAC---UA---AACAUGUA---GAUACGAG-AGGGG-------AGCAUUUGCGGA-CGCGGGUUCGACUCCCGC-CGCCUCCACCA
+CP000046.1/875955-876313       GCGAAA---------------------------------------------------C-CUAUCGAUAAAC---UA---CACACGUA---GAAAGAUGUGUAU-------CAGGACCUUUGGA-CGCGGGUUCAAAUCCCGC-CGUCUCCA---
+CP000383.1/1433554-1433957     GAAAAUG--------------------------------------------------A---ACAUCCGGC----UA---AGCAUGUA--G-AAGAUUCGAUAGUG-----G-CCUUCUCUGGA-CGAGAGUUCGAAUCUCUC-CGACUCCACAC
+AY911522.1/1-341               AUUAAAU--------------------------------------------------CAGUAGACA-CGGC---UA---CGCAUGUA--GUACCG--ACAGCGG-------AGUACUGGC----------------------------------
+CU928145.2/2978730-2979092     GCGAAU---------------------------------------------------GUAAAGAC--UGAC---UA---AGCAUGUA--GUACCG--AGGAUGU-------AGGAAUUUCGGA-CGCGGGUUCAACUCCCGC-CAGCUCCACCA
+BA000007.2/3475602-3475964     GCGAAU---------------------------------------------------GUAAAGAC--UGAC---UA---AGCAUGUA--GUACCG--AGGACGU-------AGGAAUUUCGGA-CGCGGGUUCAACUCCCGC-CAGCUCCACCA
+CP000569.1/2059595-2059960     GUGAAA---------------------------------------------------UUAAAGAC-CAGAC---UA---AACGUGUA--GUGCUG--AAGAUGG-------AGUAAUUUCGGA-CGGGGGUUCAAAUCCCCC-CAGCUCCACCA
+CP000323.1/2008654-2008296     ACUAAAA--------------------------------------------------CCAAAGACAGAAAC---UA---AACAUGUA---GAUUC--AUGAGCG------UAAUGCUGGCGGA-CGCGGGUUCAACUCCCGC-CAUCUCCACCA
+BX908798.1/630473-630069       UUUU---------------------------------------------------------ACAGAACGA----UA---AGCAUGUA--G-UGGUCAAUUCGUAA-----U--UUGCCAAGGA-CGAGAGUUCAAUUCUCUC-CACCUCCAAUU
+AP008232.1/3071644-3072027     GUGAAU---------------------------------------------------GUAAAGAC-UGGAC---UA---AGCAUGUA--GUGCCG--AAGGCGU-------AGAAAUUCCGGA-CGCGGGUUCAAAUCCCGC-CAGCUCCACCA
+AF389964.1/19-339              GCGAAU---------------------------------------------------GUAAAGAC-UGGAC---UA---AGCAUGUA--GUGCCG--AGGAUGU-------AGGAAUUUCGGA-CGCG-------------------------G
+AF137379.1/97379-97053         ------ACGGUGAUAGAUACUACAUAUCAC----UCCUGCUUAGAGGGUCAUCUAAGC----------------UA---AACCAUGU---GAAUAUAACCUUUCGG--GCCUCGAGAGACGGA-AGUGAGUUCAAUUCUCAC-CAACUCCACCA
+CP000388.1/2078693-2078337     GUUAAA---------------------------------------------------UAAAAGAC--AGAA---UA---AGCAUGUA--GUACCG--ACGGUUA-------ACGUUUUUUGGA-CGCGGGUUCAACUCCCGC-CAGCUCCACCA
+AALF02000019.1/36194-36574     GCGAAU---------------------------------------------------GUAAUGAC-UGGAC---UA---AGCAUGUA--GUGCCG--ACGGCGU-------AGUAAUUUCGGA-CGGGGGUUCAAAUCCCCC-CAGCUCCACCA
+#=GC SS_cons                   >>,,,,,..................................................,.,,,ddd,,dddd...,,...,)))))--...-)))))))))))))......-)))))))))))).,<<<<<_______>>>>>.]]]]]]]::::
+#=GC RF                        gcgAAaa..................................................c.AAAgAcauaGAC...UA...AGCAUGUA...Gaccuccagggggg......gaggacuuucGGA.CGcGGGUUCGAuUCCCgC.CacCUCCACCA
+//

@@ -21,7 +21,6 @@ def extract_cacofold_structure(sto_file):
     return None
 
 
-
 def dotbracket_to_pairs(structure):
     stack = {}
     pairs = set()
@@ -29,7 +28,7 @@ def dotbracket_to_pairs(structure):
     opening = "([{<"
     closing = ")]}>"
 
-    for i, c in enumerate(structure):
+    for i, c in enumerate(structure, start=1):
         if c in opening:
             if c not in stack:
                 stack[c] = []
@@ -64,28 +63,37 @@ def compare_structures(consensus, cacofold):
 
     c_helices = extract_helices(c_pairs)
     c_helices_stats = helix_stats(c_helices)
+
     k_helices = extract_helices(k_pairs)
     k_helices_stats = helix_stats(k_helices)
 
+    # ---- core metrics ----
+    tp_pairs = c_pairs & k_pairs
+    fp_pairs = k_pairs - c_pairs
+    fn_pairs = c_pairs - k_pairs
 
-    tp = len(c_pairs & k_pairs)
-    fp = len(k_pairs - c_pairs)
-    fn = len(c_pairs - k_pairs)
+    tp = len(tp_pairs)
+    fp = len(fp_pairs)
+    fn = len(fn_pairs)
 
     precision = tp / (tp + fp) if (tp + fp) else 0
     recall = tp / (tp + fn) if (tp + fn) else 0
 
     return {
         "TP": tp,
-        "FP (extra CaCoFold)": fp,
+        "FP": fp,
         "FN": fn,
         "precision": precision,
         "recall": recall,
         "c_knots": c_knots,
         "k_knots": k_knots,
         "c_helices": c_helices_stats,
-        "k_helices": k_helices_stats
-        }
+        "k_helices": k_helices_stats,
+
+        "fp_pairs": sorted(list(fp_pairs)),
+        "tp_pairs": sorted(list(tp_pairs)),
+        "fn_pairs": sorted(list(fn_pairs))
+    }
 
 def helix_stats(helices):
     lengths = [len(h) for h in helices]
@@ -120,12 +128,210 @@ def extract_helices(pairs):
 
     return helices
 
+def get_fp_pairs(result_dict):
+    """
+    Extract false positive base pairs from compare_structures output.
+    """
+    return set(result_dict["fp_pairs"])
+
+def map_fp_to_cov(fp_pairs, cov_df, window=3):
+    """
+    Match FP pairs to cov pairs allowing small coordinate shifts.
+    """
+
+    cov_list = list(zip(cov_df["left_pos"], cov_df["right_pos"]))
+
+    results = []
+
+    for i, j in fp_pairs:
+
+        found = None
+
+        for ci, cj in cov_list:
+
+            if abs(i - ci) <= window and abs(j - cj) <= window:
+                found = cov_df[
+                    (cov_df["left_pos"] == ci) &
+                    (cov_df["right_pos"] == cj)
+                ].iloc[0]
+                break
+
+        if found is not None:
+            results.append({
+                "pair": (i, j),
+                "evalue": found["evalue"],
+                "supported": found["evalue"] < 0.05
+            })
+        else:
+            results.append({
+                "pair": (i, j),
+                "evalue": None,
+                "supported": False
+            })
+
+    return results
+
+import pandas as pd
+import matplotlib.pyplot as plt
+from pathlib import Path
+
+
+# --------------------------------------------------
+# Parsing
+# --------------------------------------------------
+def parse_cacofold_cov(filepath):
+    rows = []
+
+    with open(filepath, "r") as f:
+        for line in f:
+
+            if (
+                not line.strip()
+                or line.startswith("#")
+                or line.startswith("-")
+            ):
+                continue
+
+            parts = line.rstrip("\n").split()
+
+            if len(parts) == 8:
+                in_cacofold = parts[0]
+                in_given = ""
+                offset = 1
+
+            elif len(parts) >= 9:
+                in_cacofold = parts[0]
+                in_given = parts[1]
+                offset = 2
+
+            else:
+                continue
+
+            rows.append({
+                "in_cacofold": in_cacofold,
+                "in_given": in_given,
+                "left_pos": int(parts[offset]),
+                "right_pos": int(parts[offset + 1]),
+                "score": float(parts[offset + 2]),
+                "evalue": float(parts[offset + 3]),
+                "pvalue": float(parts[offset + 4]),
+                "substitutions": int(parts[offset + 5]),
+                "power": float(parts[offset + 6]),
+            })
+
+    df = pd.DataFrame(rows)
+
+    df["left_pos"] = df["left_pos"].astype(int)
+    df["right_pos"] = df["right_pos"].astype(int)
+
+    return df
+
+# --------------------------------------------------
+# Extra pair extraction
+# --------------------------------------------------
+def get_extra_pairs(df):
+    """
+    Strict extra pairs:
+    predicted by CaCoFold but absent from consensus.
+    """
+
+    return df[
+        (df["in_cacofold"] == "*") &
+        (df["in_given"] == "")
+    ].copy()
+
+
+# --------------------------------------------------
+# Biological support classification
+# --------------------------------------------------
+
+def classify_support(df):
+    """
+    Add support labels based on E-value
+    """
+
+    df = df.copy()
+
+    def label(ev):
+        if ev < 0.01:
+            return "highly_significant"
+        elif ev < 0.05:
+            return "significant"
+        else:
+            return "unsupported"
+
+    df["support"] = df["evalue"].apply(label)
+
+    return df
+
+
+# --------------------------------------------------
+# Summary metrics
+# --------------------------------------------------
+
+def summarize_extra_pairs(df):
+    """
+    Compute statistics for extra pairs
+    """
+
+    total = len(df)
+
+    high = (df["support"] == "highly_significant").sum()
+    sig = (df["support"] == "significant").sum()
+    unsup = (df["support"] == "unsupported").sum()
+
+    return {
+        "total_extra_pairs": total,
+        "highly_significant": high,
+        "significant": sig,
+        "unsupported": unsup,
+        "supported_fraction": (high + sig) / total if total else 0
+    }
+
+
+# --------------------------------------------------
+# Plotting
+# --------------------------------------------------
+
+def plot_support_distribution(df):
+    counts = df["support"].value_counts()
+
+    counts.plot(kind="bar")
+    plt.ylabel("Count")
+    plt.title("Covariation Support of Extra CaCoFold Pairs")
+    plt.show()
+
+
+def plot_evalue_histogram(df):
+    plt.hist(df["evalue"], bins=40)
+    plt.xscale("log")
+    plt.xlabel("E-value (log scale)")
+    plt.ylabel("Count")
+    plt.title("Distribution of Extra Pair E-values")
+    plt.show()
+
+
+# --------------------------------------------------
+# Full pipeline
+# --------------------------------------------------
+
+def analyze_cacofold_cov(filepath):
+    df = parse_cacofold_cov(filepath)
+    extra = get_extra_pairs(df)
+    extra = classify_support(extra)
+    summary = summarize_extra_pairs(extra)
+
+    return df, extra, summary
+
 
 #RQ 2:
 from pathlib import Path
 
 
-def subsample_interleaved_stockholm(input_file, fraction=0.5, seed=42):
+from pathlib import Path
+import random
+
+def subsample_interleaved_stockholm(input_file, fraction, seed):
     random.seed(seed)
     input_file = Path(input_file)
 
@@ -149,9 +355,17 @@ def subsample_interleaved_stockholm(input_file, fraction=0.5, seed=42):
 
     print(f"Keeping {n_keep}/{len(seq_ids)} sequences")
 
-    outname = input_file.stem + f"_{int(fraction * 100)}.sto"
+    # -----------------------------
+    # ONLY CHANGE: output structure
+    # -----------------------------
+    frac_dir = f"{int(fraction * 100)}"
+    out_dir = Path("RQ2/05") / frac_dir / str(seed)
+    out_dir.mkdir(parents=True, exist_ok=True)
 
-    with open(outname, "w") as out:
+    outname = input_file.stem + f"_{int(fraction * 100)}_{seed}.sto"
+    outpath = out_dir / outname
+
+    with open(outpath, "w") as out:
         for line in lines:
 
             if (
@@ -175,8 +389,9 @@ def subsample_interleaved_stockholm(input_file, fraction=0.5, seed=42):
                 if seq_id in keep_ids:
                     out.write(line)
 
-    print(f"Wrote {outname}")
-    return outname
+    print(f"Wrote {outpath}")
+    return str(outpath)
+
 
 # RQ3
 from pathlib import Path
@@ -232,7 +447,7 @@ def perturb_stockholm_local(input_file, noise_percent, seed):
     n_perturb = max(1, int(len(seq_ids) * noise_percent / 100))
     perturbed_ids = set(random.sample(seq_ids, n_perturb))
 
-    outpath = Path(f"RQ3_2/{noise_percent}/{seed}/RF00162_{noise_percent}_{seed}.sto")
+    outpath = Path(f"RQ3_2/05/{noise_percent}/{seed}/RF00005_{noise_percent}_{seed}.sto")
 
     with open(outpath, "w") as out:
         for line in lines:

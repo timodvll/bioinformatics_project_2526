@@ -1,0 +1,138 @@
+# STOCKHOLM 1.0
+#=GF ID RF00023_tmRNA
+#=GF AC RF00023
+#=GF DE transfer-messenger RNA
+#=GF AU Gardner PP; 0000-0002-7808-1213
+#=GF GA 47.0
+#=GF NC 46.9
+#=GF TC 47.1
+#=GF R2R SetDrawingParam prefixSsWithPkInDrawings false
+#=GF R2R SetDrawingParam prefixSsWithPkInDrawings false
+#=GF NUM_COV 25
+#=GF WEIGHT_MAP AE000512_1_531684-532039 1.24217 AL009126_3_3451071-3450712 1.1414 AY846305_1_1-307 1.17844 AC165062_2_759-1127 1.2149 CP000057_2_1702657-1703022 0.380621 AE006470_1_660570-660973 1.29829 CP000431_1_6908166-6908497 1.08799 AE015925_1_760011-760435 0.799735 BA000008_3_138204-137782 0.799735 CP000112_1_1988490-1988131 1.06615 CP000033_3_728512-728880 1.04837 CP000109_2_1520762-1521119 1.07801 AAFZ01002114_1_680-1094 1.07801 AAFX01031538_1_449-804 1.24217 AE009442_1_2447459-2447813 1.08784 CP000471_1_1522615-1522980 1.32781 AY129337_1_100059-100495 1.39689 AF389964_1_19-339 0.474164 CP001358_1_1443619-1443282 1.06615 CU928163_2_3048497-3048859 0.474164 CP000416_1_1289472-1289843 1.04837 BA000030_3_6202757-6203145 1.08799 CP002276_1_842782-842417 0.380621
+#=GF USED_GSC TRUE
+#=GF DID_FRAGMENTARY FALSE.  globalOuterFirst,Last=0,435
+#=GF R2R keep allpairs
+#=GF SUBFAM_KEEPALL 1
+#=GF R2R SetDrawingParam disableSubfamWeightText true
+#=GF SUBFAM_KEEPALL 0
+#=GF R2R ignore_ss_except_for_pairs _tr_1 outline-no-bpannot
+#=GF SUBFAM_pknot1_R2R ignore_ss primary
+#=GF SUBFAM_pknot1_R2R ignore_ss _tr_2
+#=GF SUBFAM_pknot1_R2R ignore_ss _tr_3
+#=GF SUBFAM_pknot1_R2R ignore_ss _tr_4
+#=GF SUBFAM_pknot1_R2R ignore_ss _tr_5
+#=GF SUBFAM_PERL_PRED pknot1 return 1;
+#=GF SUBFAM_pknot1_R2R subst_ss _tr_1 primary
+#=GF SUBFAM_pknot1_R2R no5
+#=GF SUBFAM_pknot1_R2R outline_nuc all
+#=GF SUBFAM_pknot1_R2R set_dir pos0 90 f
+#=GF SUBFAM_KEEPALL 1
+#=GF R2R SetDrawingParam autoBreakPairs true
+#=GF SUBFAM_KEEPALL 0
+#=GF R2R ignore_ss_except_for_pairs _tr_2 outline-no-bpannot
+#=GF SUBFAM_pknot2_R2R ignore_ss primary
+#=GF SUBFAM_pknot2_R2R ignore_ss _tr_1
+#=GF SUBFAM_pknot2_R2R ignore_ss _tr_3
+#=GF SUBFAM_pknot2_R2R ignore_ss _tr_4
+#=GF SUBFAM_pknot2_R2R ignore_ss _tr_5
+#=GF SUBFAM_PERL_PRED pknot2 return 1;
+#=GF SUBFAM_pknot2_R2R subst_ss _tr_2 primary
+#=GF SUBFAM_pknot2_R2R no5
+#=GF SUBFAM_pknot2_R2R outline_nuc all
+#=GF SUBFAM_pknot2_R2R set_dir pos0 90 f
+#=GF SUBFAM_KEEPALL 1
+#=GF R2R SetDrawingParam autoBreakPairs true
+#=GF SUBFAM_KEEPALL 0
+#=GF R2R ignore_ss_except_for_pairs _tr_3 outline-no-bpannot
+#=GF SUBFAM_pknot3_R2R ignore_ss primary
+#=GF SUBFAM_pknot3_R2R ignore_ss _tr_1
+#=GF SUBFAM_pknot3_R2R ignore_ss _tr_2
+#=GF SUBFAM_pknot3_R2R ignore_ss _tr_4
+#=GF SUBFAM_pknot3_R2R ignore_ss _tr_5
+#=GF SUBFAM_PERL_PRED pknot3 return 1;
+#=GF SUBFAM_pknot3_R2R subst_ss _tr_3 primary
+#=GF SUBFAM_pknot3_R2R no5
+#=GF SUBFAM_pknot3_R2R outline_nuc all
+#=GF SUBFAM_pknot3_R2R set_dir pos0 90 f
+#=GF SUBFAM_KEEPALL 1
+#=GF R2R SetDrawingParam autoBreakPairs true
+#=GF SUBFAM_KEEPALL 0
+#=GF R2R ignore_ss_except_for_pairs _tr_4 outline-no-bpannot
+#=GF SUBFAM_pknot4_R2R ignore_ss primary
+#=GF SUBFAM_pknot4_R2R ignore_ss _tr_1
+#=GF SUBFAM_pknot4_R2R ignore_ss _tr_2
+#=GF SUBFAM_pknot4_R2R ignore_ss _tr_3
+#=GF SUBFAM_pknot4_R2R ignore_ss _tr_5
+#=GF SUBFAM_PERL_PRED pknot4 return 1;
+#=GF SUBFAM_pknot4_R2R subst_ss _tr_4 primary
+#=GF SUBFAM_pknot4_R2R no5
+#=GF SUBFAM_pknot4_R2R outline_nuc all
+#=GF SUBFAM_pknot4_R2R set_dir pos0 90 f
+#=GF SUBFAM_KEEPALL 1
+#=GF R2R SetDrawingParam autoBreakPairs true
+#=GF SUBFAM_KEEPALL 0
+#=GF R2R ignore_ss_except_for_pairs _tr_5 outline-no-bpannot
+#=GF SUBFAM_pknot5_R2R ignore_ss primary
+#=GF SUBFAM_pknot5_R2R ignore_ss _tr_1
+#=GF SUBFAM_pknot5_R2R ignore_ss _tr_2
+#=GF SUBFAM_pknot5_R2R ignore_ss _tr_3
+#=GF SUBFAM_pknot5_R2R ignore_ss _tr_4
+#=GF SUBFAM_PERL_PRED pknot5 return 1;
+#=GF SUBFAM_pknot5_R2R subst_ss _tr_5 primary
+#=GF SUBFAM_pknot5_R2R no5
+#=GF SUBFAM_pknot5_R2R outline_nuc all
+#=GF SUBFAM_pknot5_R2R set_dir pos0 90 f
+#=GF SUBFAM_KEEPALL 1
+#=GF R2R SetDrawingParam autoBreakPairs true
+#=GF SUBFAM_KEEPALL 0
+
+
+AE000512_1_531684-532039     GGGGGCGA--ACGGGUUCGACGGGGAUGGAG----UCCCCUGGGAAG-CGAGCCGAGGUCCCCACCU--CCUCGUAAAA--AAGGUGGGACAAAGAAUAAGUGCCAACGAACCUGUU------------GCUGUUGCCGCUUA-AUAGA---UAAGCGGC-------------CGUCC-UCUCC-GAAGUUGGCUGGG-CUUC-GGAAGA----GGGCGUGAGA----GAUCCAGCC-----UACCGAUUCAGCUU-CGCCUUCC-GGCCUGAAUCGG------GAACUCAGGAAGGC-----UGUGGGAGAGGACACC-UGCCCGUGGGAGGUCCCUCCCGAGAGCGAA-------AACACGGGC-UGCGCUCGGAG-AAGCCCAGGGGC--CUCCAUCUUCGGACGGGGGUUCGAAUCCCCCCGCCUCCACCA
+AL009126_3_3451071-3450712   GGGGACGUU-ACGGAUUCGACAGGGAUGGAU---CGAGCUUGAGCUG-CGAGCCGAGA--GGCGA----UCUCGUAA-----ACACGCACUUAAAUAUAACUGGCAAAACUAACAGUUUUAACCACGUAGCAUUAGCUGC-CU---AAUA--AGCGCAGCG----------AGCUCUU-CCUG-ACAUU--GCCUAU---GUGUCUGUG-----AAGAGCAC---AUCCAAGUAGGCUACGCUUGCGUUC-----C-CGUCUGA--------GAACGUAAGAAGAG-A-UGAACAGACUAGC-UCUCGGA---AGGCC-CGCCCGCA--GGCA---AGAAGAUGAGUGAAACAU-AAAUAUGCAGGCUACGCUCGUA-GACGCUUAAGUAAU-CGAUGUUUCUGGACGUGGGUUCGACUCCCACCGUCUCCA---
+AY846305_1_1-307             ---------------------GCUGGUGAUGA-A-ACUCAA--UGAUGCAUGUCGAGAGUAUAUGUC-CUCUCGUUAAUCC-AACAUAU-AUUGUUAUAGUCGCAAACGACGAAAAUUAC-------------GCUCUAGCAGCUUAAACC-CUGUUU--------------ACUUGGUG----CUGAUCACCUACA--GUUGG---UCA---ACUAAGUUGAAGUCCGCAUGUAGGAU-C--GCCACA---AGGGAUUGUCUCAACCU--U--UGGGUUCAAA----AGUAGAGACUC-GGCUAAUCC----AUCCU--GACU--GUCGGA----UCGGUGCAGACUAAAA-UUAAAGACAGAAACUAAACAUGUA-GAUUC--AUGAGCG-UAAUGCUGGC--------------------------------
+AC165062_2_759-1127          GGGGGCGAC-CUGGCUUCGACGGGGAGAGAGA--AUUCGA-GAGCG--CGUGCCGAGG--UCCCCGAC-CCUCGCUAAU--CCUCGGGA-AAAAAAUCAAACGCCAACGAUAACUCG---UA----UGCGUUGGCCGCCUAAA-GAGA----UUUAGGUAGCC---------CGUUGGC-----GUCCGUGGGGCCUACCGGAC---------GCCGACGCCA-UUACAGCAGGCUAGCCCUUGUUCAGGGG-----CGGCCGGCGAAACUCUCUGAA--------------CUGGUCCAAUCCGGAU-------CCU--GUCA--GUCGGA---GCUGGUGAGGAUGAGAAAGCAUAGAC--UGACUACGCACGUA-GUGGUCUC-GUAGG-ACCUAUUCUCGGACGCGGGUUCGAUUCCCGCCGCCUCCACCA
+CP000057_2_1702657-1703022   GGGGCUGAUUCUGGAUUCGACGGGAUUAGCGA---AGCCCA--AGGUGCACGUCGAGG--UGCGGUAGGCCUCGUAAAU--AAACCGCA--AAAAAAUAGUCGCAAACGACGAACAAUAC------------GCUUUA-GCAGCUUAAUAACCUGCAUUUAGC---------CUUCGCGCUCCAGCUUCC-GCUC-GU--AAGACGGGGAUAACGCGGAGUCAAACCAAAAC-GAGAUC-G---UGUGG---AAGCACCGUUUGAGGAU--CGAAGCACUAAAUU---GAAUCAAACUA-GCUUA-AGUU---UAGCG-UGUCU--GUCCGC----AUGCU-UAAGUGAAA--UUAAAGAC-GAGACUAAACGUGUAGUGCUG--AAGGUAG--AGUAAUUUCGGACGGGGGUUCAACUCCCCCCAGCUCCACCA
+AE006470_1_660570-660973     GGGGAUGA-CAGGCUAUCGACAGGAUAGG---UGUGAGAUGUCGUUG-CACUCCGAGUUGCAUGGACGGACUCGUUAAACAAGUCUAUG--UACCAAUAGAUGCAGACGAUUAUUCG---UA-----UGCAAUGGCUGCCUGA-------U-UCAGA-AGCCA--------U-------CGUCCGCGGUGCGCUUACUCGCCGCGGAUGGCGC----------------AAGUAAGC-------UCCGUACAUUCA-UGCCCGAG-GGGGUGUGCGGG-------UAACCAAUCGGGAU---AAGGGGA-CGAACGC--UGCUGGCGGU-GUAAUCGGACCACGAAAAACC------AACCACCAG-GAUGAGUGUGG-UAACUGCAUCGAGCA--GUGUCCUGGACGCGGGUUCAAGUCCCGCCAUCUCCACCA
+CP000431_1_6908166-6908497   ----------------C----UGCGUACGU---UGAGGUAGGGGAAG-CGUGUCGGUG--CAGGCAA-CCACCGUAAGCGCGCUGCAAA----CAUAUAAGCGCCGAUUCCAAUCAGCGC---------GACUACGCACUCGC-UGCCUA-AGUAGCGACUGCGU----GUCUGUCAG------CCGGGUCGCCCUCGGCCCGGA---------CUGGCAUCAG----CUAGAGGGCU-UACCGUUCGACU------CGGUCGC---G-G-AGUCGAAUGGGACAACCAACAGCGACUG-GGAUCGU--CAUCCUGGCUUGUUUGCGAGACUGGGA------GAUCCAAGUAAC----AUAGCAAACUGCACACGGA--GAAGCCCUAGCUU--UGCUGCGGAGGACCCGG------------G----------U
+AE015925_1_760011-760435     GGGGGUGU-AUAGGUUUCGACUUGGAA-----AUGAAGUGUUAAUUG-CAUGCGGAGGGCGUUGGCUGGCCUCCUAAA---AAGCCGAC-AAAACAAUAAAUGCCGAACCUAAGGCUGAAUGCGGAGGAAAGAUUAGCUGCUUAAUUAGCA-AAGUUGUUGUCUAGAUAACC-CGGUG-CUCAUAGACU-CCACCAGA-GGUUUGUGAA----ACACCGUCA----UCUAUCUGGU------UGGAAUCUACCUUCUAAUUCUCAAGGAGGUUUAUUCGA-----GAUUAUUGAGAGU----CGUUG-GCUUCCAUAG-AUGUUCUUAGCUGAGGAAGUUCAAUGUAUGAU-----UACUAGGGAC-UAAGCAUGUAG-AGGUUAGCAGGGAGU--UUACUAAGGACGAGAGUUCGAGUCUCUCCACCUCCAUUU
+BA000008_3_138204-137782     GGGGGUGU-AUAGGUUUCGACUUGAAA-----AUGAAGUGUUAAUUG-CAUGCGGAGGGCGUUGGCUGGCCUCCUAAA---AAGCCAAC-AAAACAAUAAAUGCCGAACCUAAGGCUGAAUGCGGAGGAAAGACUAGCUGCUUAAUUAGCA-AAGUUGUUAGCUAGAUAACC-CGGUA-UCUGCGAGCU-CCACCAGA-GGCUUGCAAA----AUACCGUCA----UUUAUCUGGU------UGGAACUUACUUUCUAAUUCUCAAGGAAGUUCGUUCGA-----GAUUUUUGAGAGU----CAUUG-GCUGCUAUAG-AGGCUUCUAGCUAAGGGAGUCCAAUGUAAACA--A--UUCUAGAAGA-UAAGCAUGUAG-AGGUUAGCAGGGAGU--UUGUCAAGGACGAGAGUUCGAGUCUCUCCACCUCCA---
+CP000112_1_1988490-1988131   GGGGGCGCA-CUGGUUUCGACGGGGAUAAAGA--AGCCG--GAGUGG-CAGGUCGAGG-CGCCGCUGG-CCUCGUUAA----AAGCGGC-ACAAAUGUAAUUGCCAACAACGAUUAC---GAA---UACGCAAUGGC-AGCCU---AAUU--AGGCUUGCCG----------CACUG--UUGGC-GACG--UCAGAUA-C----GCCGA-----CCAGUGAC---AAACUUAUCCGAC----UGGCACCCAAAGC---CGUCUGU-CGCAGCGGGUGUAAGAUUUU-UUAAGACAGACU-UGCCGCCGGU----AGCC-CGAUC--AGGGGC-AUCACCGGAUGGCGAGC-UUGAAUACCU--GAUCUAAACCUGUA-GAAGCUUC-GAGUG-GACUGUUCUCGGACGCGGGUUCGAUUCCCGCCGCCUCCACCA
+CP000033_3_728512-728880     GGGGAUGUUUUGGGAUUCGACAGGCGUAG----ACCCGCAUUGACUG-CGAUUCGUAG--GUUACGU--CUACGUAAA---AACGUUACAUUAAAUAUAACUGCAAAUAACAAAAAUUC---------UUACGCAUUAGCUGC-UUAAU-UAGCGCAUGCG----------UUGCUCUUGACC-AGUUU--ACUCGU---GACU-GGUU---UUCGAGUAUCAA--CUUUAGCGAGUUACGUUUAACUACC----U-CACCUGA--------AUAGUUAAAAAGAGUC-UUAACAGGUUAGCUGGUUCAUA-CUAGCCCUGUUAUAU--GGCG--UUUUGAACUAGUGAAGUUU-AAGUAAUAUAACUAUGAUCGUA-GAGGUUAAUGACG--AGAUGCGUUUGGACAGGGGUUCAAUUCCCCUCAUCUCCAUAG
+CP000109_2_1520762-1521119   GGGGAUGCA-CUGGUUUCGACGGGGAGUACAA-A-GUUUA---GGAUGCAUGUCGUGC--CUGAAUGAUGCACGUAAAUCUUUAUUUCAAUUUGUUAUAGUUGCAAACGACGAUAACUA-------------CGCUCUAGCGGCUU-A--UCCCGCUAG-------------CGCAGAC-----UGGGACCGUUGUUCGUGGCAC-----CAGCUCUGUGUCGA---CUCACACGGAA---UCGUCGG---GUCUUAUGUGUUUGGAAGA-C--UUGACUAAA--C-UUAACAAACUC--GCUUAAUGUG----AUCCCUGCUG--GCCGGG----CAGCAUUAAGUUAAAA-UAAUAGAC--CAAAUAAACAUGUAGAGUUU---UAAAUG-GAGGCUUCUCGGACGGCGGUUCGACUCCGCCCAUCUCCACCA
+AAFZ01002114_1_680-1094      GGGGGCGUA-UUGGAUUCGACGCCGGUUACAA-A-ACUUG---AGGUGCAUGCCGAGA-UGGUGACCAAUCUCGUUAAUCAAAGUCGCA-AACCUUAUAGUUGCCAACGACGACAACUACGCACAGCGC-------------------------------------------CAUCUGA-UG--GAGCCGGCUUAUG-CGUCCACUUCAUCAUUCAGGUGUCAU---AACUCAUAAGA---UCGCGAU---GACCCAC--GUCUGGGGUG-A--CUCGCUAAAACCUAAACCAGAAUC--GCCAUUUCACA--UGCCC-UGCCG--GCCGGG----CAGUGAGAGGUUAAAUAUAAUAGACC-GAACUAAGCAUGUAGAGCCG---AUAGCA-GCGGACUGACGGA-GCGGGUUCAAUUCCCGCCGCCUCCACCA
+AAFX01031538_1_449-804       GGGGGCGC-ACCGGUUUCGACGGGAUUG----AUCGUUGUGGGAAGG-CGUGCCGGGUUCCGAGC----UCCCGUAAA----ACGAUCGGAAAACAACAACUGCCAACAACACGCAG---UU-----UGCAUACGCUGCCUAA--UUAA---UUAGGUAGC------------CGCUG-CGGUCUCUGGC--UCCUGU-CUGGAGGCCUG---UCGGCGUCU----UAAUGCAGGAU------GGGCCUAACGCU--UCGGUCCG-GAGCGGACAGCCGA-----GUCAAUCGGGCUAA------GCCGACCGGCUCU--UGCCGGUUCCUCACCGGUCGGACGAAAACCA--C---CGAAUCGGA-CACGCACGUAGUCUUUUC-AUGGCGGA--CUUUCUCGGACGCGGGUUCAAUUCCCGCCGCCUCCACCA
+AE009442_1_2447459-2447813   GGGGGUGCA-CUGGCUUCGACGGGGGUCACAA-A-AUCAC--UUGGUGCAUGCCGAGG-GGGCCGCUUUCCUCGUAAAUCC-AGCAGCA--CACUUAUAGUUGCCAACGAAGACAACUU--------------CGCUCUAGCCCUUAA----GGCUUAAGC-----------CUCGA--UG---CUUGUG-UCCGUGCUGCAG----CG------UAGAGUCAU----CAUCACGGAA---CCGCUGAG---ACGUGGCCGUCUGCACC----CUUGGUUAAA--U-CUAGCAGACUG--GUUUCCGGGU----GCGCUUGCCU--GUCGUGC---UGCCCGGCGACGAGAC-CUAACGGCC-AGGAUAAGCAUGUAGGGCCG---GGGACG-GAGUACUUUCGGACGGCGGUUCGAUUCCGCCCACCUCCACCA
+CP000471_1_1522615-1522980   GGGGGUGAA-CUGGCUUCGACGGGGUGUGGAA--CGGUUA-GCAAGG-CGACUCGGAA---UGGUAC--CUACGUAC----AGGACCAA--ACUUUACAAUUGCCAAUGACGAGCAC---UACGCUCCGGCUUUUGCAGCUGC-UAAA----GUAGUUGUACAAAGCGGGGU---------------CUG-AACC-----CGG-------GGU-AGGCCGGU----GUAAAUCCAGGG---ACACCCAGUUCUCC----GAGGUAACGGG-G----------------------------GCUAUGUGGU-----CA---GCCA-GCCUGAG---ACGCCACAAAGCAGUA-------GGGU-UGGCAAUGGUCGUGUUCCUUCU--AGCUUAUACAUAUUUCGGACCGGGGUUCGACUCCCCGCACCUCCACCA
+AY129337_1_100059-100495     GGGCCUGA-CAAGGUUUCGACUGGUCGAUGG-ACAACUGAACAG----CGGGCGAGUGUGGCCGCACUCUACUCUGAGUGA-ACGCGGC--AACUGAUAAACGCAACCGACACGGAUGCAACGGGAAGAGGCUGCCGCUCUCG--UC-----UGAAGGAACCAGCCUAGGGAGCGCAAACUCGUCCCAAAAUCAUGAA-UGCG-UCGCA----CGGGCUCCAG-----CGUCAGGGG----CCAGAGGUGGG-----------------------------------------------AAACGGU--GUGAAACUCC--UGUCCUGG-GGA---UCACCGACCGAUACGC--C--AAACCAGGAC-UACGCCCGU-------AGAACGCAGUAAAGACACCAGGACAGGGGUUCGAGUCCCCUCAGGUCCACGU
+AF389964_1_19-339            --------G----------ACGGGAUUCGCGA---AACCCA--AGGUGCAUGCCGAGG--GGCGGUUGGCCUCGUAAA---AAGCCGCA--AAAAAAUAGUCGCAAACGACGAAAACUGC------------GCUUUA-GCAGCUUAAUAACCUGCUAAGAGC---------CCUCUCUCCCUAGCUUCC-GCUC-UU--AAGACGGGGAAAAAGAGAGGUCAAACCCAAAA-GAGAUC-G---CGUGG---AAGCCCUGCCUGGGGUU---GAAGCGUUAAAAC---UAAUCAGGCUA-GUUUG-UCAG---UGGCG-UUCC----UCCGCA---GCUGG-CCAGCGAAU--GUAAAGAC-UGGACUAAGCAUGUAGUGCCG--AGGAUGU--AGGAAUUUCGGACGCG------------------------G
+CP001358_1_1443619-1443282   --------A-------C----GGGGACGUGGA--AGCCGU--AGCGG-CAGGUCGAGG-CGCCGCUGG-CCUCGUAAA----AAGCGGC-ACAAAAGUAAUUGCCAACAACGAUUAC---G-------ACUACGCUUACGCUGCCUAAUAA-CAGCG-AGGC-AAUGGGUCGCGCCGAUCAGGGCCAUG--CCUGAUA-A----CCCUG----AUUGGCGAC-----ACUUAUCAGG----CUGGCGAAAACCGG---CUCUCGCCGGGGUUUUUCGCGAGGAGUU-UACCGGCGGGAUUGCUGCGUUGU-----GCC-UGGUC--AGGGGC---CAACAGCGCGGUGAAAU-ACAUACUU--GACCUAAACCUGUA-GAUGCUUC-GUGUG-GAAUGUUCUCGGACGGGG------------G----------U
+CU928163_2_3048497-3048859   GGGGCUGAUUCUGGAUUCGACGGGAUUUGCGA---AACCCA--AGGUGCAUGCCGAGG--GGCGGUUGGCCUCGUAAA---AAGCCGCA---AAAAAUAGUCGCAAACGACGAAAACUAC------------GCUUUA-GCAGCUUAAUAACCUGCUUAGAGC---------CCUCUCUCCCUAGCCUCC-GCUC-UU--AGGACGGGGAUCAAGAGAGGUCAAACCCAAAA-GAGAUC-G---CGUGG---AAGCCCUGCCUGGGGUU---GAAGCGUUAAAAC--UUAAUCAGGCUA-GUUUG-UUAG---UGGCG-UGUCC--GUCCGCA---GCUGG-CAAGCGAAU--GUAAAGAC--UGACUAAGCAUGUAGUACCG--AGGACGU--AGGAAUUUCGGACGCGGGUUCAACUCCCGCCAGCUCCACCA
+CP000416_1_1289472-1289843   GGGGCCGUU-CUGGAUUCGACUGGUAUAG---GUUGCGCCCCAACUG-CACUCCGUAG--CGG-CAU--CUACGUUAA---AAGGUCC-AUUAAUUAUAACUGCAAAAAAUAAUAACAAUU------CUUACGCUUUAGCUGC-UUAAUA-GGCGCUUAACG---------UAGAUCCUCCUA-GGCUU--GUCCGU---GGUC-UAGAU--CUGGGUCCUAAA---UUUAACGGACUUAGCUAACGACUC----C-CACCUGA--------AGUACGUUAGAAGAAA-AAAUCAGGUUAGCUGUUCAUGU--GGGCCCUGACAGGC--GGCA---AGUUGGGCAGUGAAACUU-AAGUAGUCUGAAUAUGAGUGUA-GACGUUGGGGUGG--CAAUAUGCUAGGACGCGGGUUCGAUCCCCGCCGGCUCCAUAU
+BA000030_3_6202757-6203145   GGGGAUGA--UCGGUUUCGACAGCGGCUGU---UGAAGCAGGGGAAG-CGUGUCGAGG--AAGCGGC-AUCUCGUAAACCAUGUCGCAA----AAAAUAAUCGCCAAUACCAAGAGCGAUUCCCAGUCCUUCGCCCUCGCUGCUAAUAA---GCAGUGAGUGAGGGAAUGGGUGUCAG------CCGGGAUGUUCCCGACCCGGC---------CUGGCAUAAU----CUAGGGGACU-AACCAUCGAGCC------CGGUCAC---G-G-GGUUCGAUGGGAAAUCAAACAGUGACUG-GGCCCGU---C-GGCGACUUGUUCGCGUGAUCGCCG------GGGCCGAGAAUC----GCAGCGAACUGCACACGGA--GAAGCCCUGAUUC--UGCACCGGUGGACGCGGGUUCGAUUCCCGCCAUCUCCACGA
+CP002276_1_842782-842417     GGGGCUGAUUCUGGAUUCGACGGGAUUAGCAA---AGCCCA--AGGUGCACGUCGAGG--UGCGGUAGGCCUCGUAAAU--AAACCGCA--AAAAAAUAGUCGCAAACGACGAACAAUAC------------GCUUUA-GCAGCUUAAUAACCUGCAUUUAGC---------CUUCGCGCUCCAGCUUCC-GCUC-GU--AAGACGGGGAUAACGCGGAGUCAAACCAAAAC-GAGAUC-G---UGUGG---AAGCACCGUUUGAGGAU--CGAAGCACUAAAUU---GAAUCAAACUA-GCUUA-AGUU---UAGCG-UGUCU--GUCCGC----AUGCU-UAAGUGAAA--UUAAAGAC-GAGACUAAACGUGUAGUACUG--AAGGUAG--AGUAAUUUCGGACGGGGGUUCAACUCCCCCCAGCUCCACCA
+#=GC SS_cons <<<<<<<.............<<<<<<<<<...<<<<<<<<<<<<<...<<<<<......<<<<<<<<...............>>>>>>>>.................................<<<<<<<<<<<<<<<<<><<.........>>..>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<........>>>>>>>>>>>....>>>>>>>.....................<<<<<<<<<<<<<<<<........>>>>>>>>>>>>>>>>.......................................<<<<<<<<<.............................>>>>>>>>>...>>>>>......>>>>>>>>>>>>>.>>>>>>>>>...<<<<<.......>>>>>>>>>>>>....
+#=GC RF GGGGguGAu.cuGGaUUCGACgggaguugcGA.acaccccuggaggg.CAUGCCGAGG..ggcgguu.gCCUCGUAAAu..Aaaccgcc..AAAAAAUAAuUGCaAACgAcaAaaAcUA.........uuucgcucuaggcgc.UUAAUa.cgcgccuagagc.........ccucccucccuaccauuc.GCccauu.gguggcgggg...aagggaggUCAa..cuuaAaugGGaUa.Gccgcgcaacu.aa.c.cggcuugg..g...gguugcgcggAAaaa.uuaAaaaggcuu.gccucaugau...uagcc.UGuCc..gUcggca...gaucaugaggcgAAaa.c.AAAgAcauaGACUAAGCAUGUA.Gaccuccagggggg.gaggacuuucGGACGcGGGUUCGAuUCCCgCCacCUCCACCA
+#=GC SS_cons_tr_1 .....................................................<<<<<<<<<<.>>>>>>>>>>.........................................................................................................................................................................................................................................................................................................................................................................
+#=GC SS_cons_tr_2 ...............................................................................................................................<<<<<<<<<<<<<<.............>>>>>>>>>>>>>>...........................................................................................................................................................................................................................................................................
+#=GC SS_cons_tr_3 .........................................................................................................................................................................................<<<<<<<<<<<<<<<<<<......................>>>>>>>>>>>>..>>>>>>..............................................................................................................................................................................................
+#=GC SS_cons_tr_4 .................................................................................................................................................................................................................................................................<<<<<<<<<<<<<................>>>>>>>>>>>>>........................................................................................................................................
+#=GC SS_cons_tr_5 ............................................................................................................................................................................................................................................................................................................<<<<<<<<<<<<<<<<<<<<<<<.>>>>>>>>>>>>>>>>>>>>>>>........................................................................................
+#=GC cons GGGGnYGnn-nnGGnUUCGACRGGRnnnRnn--nnRnnnnnnnRnnn-CRnGYCGRRR-nnnnRnnnnnYYYCGUnAAn--nRnnnnnn-nnnnnnAUARnYGCnAAYRAYRAnnRYnn-nn-----nnnnnnnnnYnnnYnn-nnnRn---nnRnnnnnnn---------nnnnnnn-nnnn-nnnnnnnnYYnnnn-nnnnnnnnnn----nnnRnnnnnnn--nnnnnnnnRRnn---nYRnnnnnnnnnnnn-nnnnYnnn-nnnn-nnnnnnnnnnnnnnn-nnnnnnnRnnnn-nnnnnnnnnnn--nnnnn-nGnYnnnnnnnnnn--nnnnnnnnnRRYRRRnn-n-nnnnnnnnnRRnUAnRCnYGUAnnnnnnnnnnRnnnn-nnnnnnYYnYGGACRnGGGUUCRAnUCCnnYCRnCUCCAYnn
+#=GC conss 333333334033333333333333311234400443111244322230111313233304211313344333232123400431111120432111331111121323333331133440440000044444322232323220433340002232232334000000000443333304444032211442331324042224444440000432322222440044211121232400043311112444444403332322404344044433334444444404433333333340333222233340043113043111441332114004222223112333333403044311144113433113111334422224443311130333111331322223233333333333333333333333333
+#=GC col_entropy_0 000011011112002000000100111212101221111221212110001000011111111112212111000100111111111111111111000010000001101101111111111111122222212212211221111111112212211221111111111222212211212121211221111222122212212221111222112211110111211121112211111111112221221111211112211121121222222111111211112222112221121221221221122111110102121211111112222222111111111112101111121101100100100001112211212111111221111111100001100000010200011101100000111
+#=GC col_entropy_1 ...................................................................................................................................................................................................................................................................................................................................................................................................................................................
+#=GC col_entropy_2 666984698491691986655488477162792025858018031728097995320427998662190402352139735839777782773572760989029633472469836997894245802112190071278114959175521180087227444232233010092288290719197209767202501282091205326001590098469299084817341042575787891229119959189591178928329210022875289269992211481000418119009205622516267990708284487651121010982774067831695687729896396599790682891087292677994209778456422242777666636196909464896666386
+#=GC col_entropy_3 444676423614440414499016483498593039988433759793097085387458154783724179359716113035246975494236340001085630747954988196037414251251964213381241130994114314098622618399438122774111269887667416026751590135140784325776747691735747917684573608954178049600316503849277347446327906514860087299662325019486822118166349723283416482313072641849805740692008690748197518894591820200790035376708600149834816147005099962532444494104977146764444020
+#=GC cov_SS_cons ....22...............2.2.2............22.........2222........22222.................22222...................................................2222.........22..................222222...2..222..............222..2.......222222........................222............................222...........................................222..2.................................2..222....2222............22..........2.2.2....22.............22.22........
+#=GC cov_SS_cons_tr_1 .....................................................2.22.............22.2.........................................................................................................................................................................................................................................................................................................................................................................
+#=GC cov_SS_cons_tr_2 ............................................................................................................................................2.............2........................................................................................................................................................................................................................................................................................
+#=GC cov_SS_cons_tr_3 ................................................................................................................................................................................................2.222..................................222.2.......................................................................................................................................................................................................
+#=GC cov_SS_cons_tr_4 ....................................................................................................................................................................................................................................................................2.22............................22.2...........................................................................................................................................
+#=GC cov_SS_cons_tr_5 ..................................................................................................................................................................................................................................................................................................................2........22.............22........2..............................................................................................
+#=GC SUBFAM_pknot1_R2R_LABEL -----------------------------------------------------..........-..........-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#=GC SUBFAM_pknot2_R2R_LABEL -------------------------------------------------------------------------------------------------------------------------------..............-------------..............---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#=GC SUBFAM_pknot3_R2R_LABEL -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------..................----------------------....................----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#=GC SUBFAM_pknot4_R2R_LABEL -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------.............----------------.............----------------------------------------------------------------------------------------------------------------------------------------
+#=GC SUBFAM_pknot5_R2R_LABEL ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------.......................-.......................----------------------------------------------------------------------------------------
+//

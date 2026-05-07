@@ -1,0 +1,129 @@
+# STOCKHOLM 1.0
+#=GF ID RF00023_tmRNA
+#=GF AC RF00023
+#=GF DE transfer-messenger RNA
+#=GF AU Gardner PP; 0000-0002-7808-1213
+#=GF GA 47.0
+#=GF NC 46.9
+#=GF TC 47.1
+#=GF R2R SetDrawingParam prefixSsWithPkInDrawings false
+#=GF R2R SetDrawingParam prefixSsWithPkInDrawings false
+#=GF NUM_COV 29
+#=GF WEIGHT_MAP FM209186_1_4965959-4966311 1.02807 AY911524_1_1-307 1.53528 AF375579_1_1-299 1.62671 U68075_1_21-331 0.868478 CP000964_1_1196116-1195754 0.34982 AF481102_1_4584-4321 1.57852 CR522870_1_569610-569245 1.34613 CP000046_1_875955-876313 1.53528 AY911522_1_1-341 1.02807 CU928145_2_2978730-2979092 0.194291 BA000007_2_3475602-3475964 0.194291 BX908798_1_630473-630069 1.59847 AP008232_1_3071644-3072027 0.558301 AALF02000019_1_36194-36574 0.558301
+#=GF USED_GSC TRUE
+#=GF DID_FRAGMENTARY FALSE.  globalOuterFirst,Last=0,406
+#=GF R2R keep allpairs
+#=GF SUBFAM_KEEPALL 1
+#=GF R2R SetDrawingParam disableSubfamWeightText true
+#=GF SUBFAM_KEEPALL 0
+#=GF R2R ignore_ss_except_for_pairs _tr_1 outline-no-bpannot
+#=GF SUBFAM_pknot1_R2R ignore_ss primary
+#=GF SUBFAM_pknot1_R2R ignore_ss _pk_1
+#=GF SUBFAM_pknot1_R2R ignore_ss _pk_2
+#=GF SUBFAM_pknot1_R2R ignore_ss _tr_2
+#=GF SUBFAM_pknot1_R2R ignore_ss _tr_3
+#=GF SUBFAM_PERL_PRED pknot1 return 1;
+#=GF SUBFAM_pknot1_R2R subst_ss _tr_1 primary
+#=GF SUBFAM_pknot1_R2R no5
+#=GF SUBFAM_pknot1_R2R outline_nuc all
+#=GF SUBFAM_pknot1_R2R set_dir pos0 90 f
+#=GF SUBFAM_KEEPALL 1
+#=GF R2R SetDrawingParam autoBreakPairs true
+#=GF SUBFAM_KEEPALL 0
+#=GF R2R ignore_ss_except_for_pairs _pk_1 outline-no-bpannot
+#=GF SUBFAM_pknot2_R2R ignore_ss primary
+#=GF SUBFAM_pknot2_R2R ignore_ss _tr_1
+#=GF SUBFAM_pknot2_R2R ignore_ss _pk_2
+#=GF SUBFAM_pknot2_R2R ignore_ss _tr_2
+#=GF SUBFAM_pknot2_R2R ignore_ss _tr_3
+#=GF SUBFAM_PERL_PRED pknot2 return 1;
+#=GF SUBFAM_pknot2_R2R subst_ss _pk_1 primary
+#=GF SUBFAM_pknot2_R2R no5
+#=GF SUBFAM_pknot2_R2R outline_nuc all
+#=GF SUBFAM_pknot2_R2R set_dir pos0 90 f
+#=GF SUBFAM_KEEPALL 1
+#=GF R2R SetDrawingParam autoBreakPairs true
+#=GF SUBFAM_KEEPALL 0
+#=GF R2R ignore_ss_except_for_pairs _pk_2 outline-no-bpannot
+#=GF SUBFAM_pknot3_R2R ignore_ss primary
+#=GF SUBFAM_pknot3_R2R ignore_ss _tr_1
+#=GF SUBFAM_pknot3_R2R ignore_ss _pk_1
+#=GF SUBFAM_pknot3_R2R ignore_ss _tr_2
+#=GF SUBFAM_pknot3_R2R ignore_ss _tr_3
+#=GF SUBFAM_PERL_PRED pknot3 return 1;
+#=GF SUBFAM_pknot3_R2R subst_ss _pk_2 primary
+#=GF SUBFAM_pknot3_R2R no5
+#=GF SUBFAM_pknot3_R2R outline_nuc all
+#=GF SUBFAM_pknot3_R2R set_dir pos0 90 f
+#=GF SUBFAM_KEEPALL 1
+#=GF R2R SetDrawingParam autoBreakPairs true
+#=GF SUBFAM_KEEPALL 0
+#=GF R2R ignore_ss_except_for_pairs _tr_2 outline-no-bpannot
+#=GF SUBFAM_pknot4_R2R ignore_ss primary
+#=GF SUBFAM_pknot4_R2R ignore_ss _tr_1
+#=GF SUBFAM_pknot4_R2R ignore_ss _pk_1
+#=GF SUBFAM_pknot4_R2R ignore_ss _pk_2
+#=GF SUBFAM_pknot4_R2R ignore_ss _tr_3
+#=GF SUBFAM_PERL_PRED pknot4 return 1;
+#=GF SUBFAM_pknot4_R2R subst_ss _tr_2 primary
+#=GF SUBFAM_pknot4_R2R no5
+#=GF SUBFAM_pknot4_R2R outline_nuc all
+#=GF SUBFAM_pknot4_R2R set_dir pos0 90 f
+#=GF SUBFAM_KEEPALL 1
+#=GF R2R SetDrawingParam autoBreakPairs true
+#=GF SUBFAM_KEEPALL 0
+#=GF R2R ignore_ss_except_for_pairs _tr_3 outline-no-bpannot
+#=GF SUBFAM_pknot5_R2R ignore_ss primary
+#=GF SUBFAM_pknot5_R2R ignore_ss _tr_1
+#=GF SUBFAM_pknot5_R2R ignore_ss _pk_1
+#=GF SUBFAM_pknot5_R2R ignore_ss _pk_2
+#=GF SUBFAM_pknot5_R2R ignore_ss _tr_2
+#=GF SUBFAM_PERL_PRED pknot5 return 1;
+#=GF SUBFAM_pknot5_R2R subst_ss _tr_3 primary
+#=GF SUBFAM_pknot5_R2R no5
+#=GF SUBFAM_pknot5_R2R outline_nuc all
+#=GF SUBFAM_pknot5_R2R set_dir pos0 90 f
+#=GF SUBFAM_KEEPALL 1
+#=GF R2R SetDrawingParam autoBreakPairs true
+#=GF SUBFAM_KEEPALL 0
+
+
+FM209186_1_4965959-4966311   GGGGCCGAU-UAGGAUUCGACGCCGGUAACAAA-ACUUG---AGGGGCAUGCCGAGCGGUAGCAG-AACUCGUAAAUCGCUGCUGCAAACUUAUAGUUGCCAACGACGACAACUAC--------GCUCUAGCUGC-UUAA---UGCGGCUAG-----CAGUCGC-----GGGGAUGCCUGU-AACCCA--------ACGACUGUCAG--AUAGAACAGGAUC----GCCGCC---AAGUUCGCUGUAGCGU---AACGGCUAAAA---CUCAUACAGCUCGCUCCAAGC-ACCCU-GCCA--CUCGGG-CGGCGCGGAGUUAACUCAGUAGAGC-UGGCUAAGCAUGUAGAACCG--AUAGCGG-AGAGCUGGCGGACGGGGGUUCAAAUCCCCCCGGCUCCACCA
+AY911524_1_1-307             ---------------------AGGGAUAGUU--CGAGCUUAGGUUG-CGAGUCGAGG-GGAUCG--GCCUCGUUAA---AACGUCAAAGCCUAUAACUGGCAAACAACAAAACAA-C---UUCGCUUUAGCUGCU--UAAU---AGCGCUUAGCG--GUUCCU-CCCU-CCAUU-GCCCAU--GUGGUAGGG---UAAGGGACUCAC--UUUAAGUGGGCUACGCCGGAUUCCA---C-CGUCUGA-------GGAAGAAGGAAGAGAA-CAACCAGAC-UAGCUCAUCGCGCCC-GUCAGCAGGCAGAAGAAUGAGCGAAUCGCG--AAUAUGUUGACUACACUCGUA-GAAGCUUAAGUGCC-GAUGUUUCU--------------------------------
+AF375579_1_1-299             ------------------------CAUUG---UCGCGCAUGAACUG-CAACUGGUGG-UGAUG----UCACCUAA---AUCCAUCGAUAAAUAUAACUGCUAAAAAUAACACUUC-----UUACGCACUCGCUGC-CUAAAC-ACCAGCUUGCGU--AGCUGAU-GAU-CGUUC-GCCGAU--GGCG-GCC----UGAAGCUCUAAA--CCUCAGUCGGAUACGUUUUUAUG-------GUGGCUU---U---ACAUAAAAAAAGAG-AUUUUAAAGCACGCAAAUUUCUGCUGUGAGACUGGC-UUU--GGAAAUUUGUUAAACG----AGAAAGUCCUAUGGUUGUA-GACGUUGAUGUAG-CAAGGUG-----------------------------------
+U68075_1_21-331              --------N------------AAGAUUCACGA--AACCCA--AGGUGCAUGCCGAGG-UGCGGUAGGCCUCGUUAAC-AAACCGCA-AAAAAAUAGUCGCAAACGACGAAAACUAC--------GCACUA-GCAGCUUAAUAACCUGCAUAGAGC--CCUUCUACCCU-GCUUGCCUGU-GUCUAG--GGAAU---CGGAAGGUCAU-CCUUCAC-AGGAUC----GUGUGG--AAGUCCUGCUCGGGGCG--GAAGCAUUAAAAC---CAAUCGAGCUAGUCAAUUCGU-GGCGUGUCU--CUCCGC-AGCGGGUUGGCGAAU-GUAAAGAG--UGACUAAGCAUGUAGUACCG--AGGAUGU-AGUAAUUUUGGA-----------------------------
+CP000964_1_1196116-1195754   GGGGCUGAUUCUGGAUUCGACGGGAUUUGCGA--AACCCA--AGGUGCAUGCCGAGG-GGCGGUUGGCCUCGUAAA--AAGCCGCA--AAAAAUAGUCGCAAACGACGAAAACUAC--------GCUUUA-GCAGCUUAAUAACCUGCUCUGAGC--CCUCUCUCCCUAGCUUCCGCUC-UU-AAGACGGGGAUAAAGAGAGGUCAAACCCAAAA-GAGAUC-G---CGUGG--AUGCCCUGCCUGGGGUU--GAAGCGUUAAAUC---UAAUCAGGCUAGUUUG-UUAGUGGCGUGUCU--GUCCGCAGCUGG-CAAGCGAAU-GUAAAGAC--UGACUAAGCAUGUAGUGCCG--AGGAUGU-AGGAAUUUCGGACGCGGGUUCAACUCCCGCCAGCUCCACCA
+AF481102_1_4584-4321         GGGGAUGACAGGGAUU-CGACA-CGGGGCAAGGGAUGGG--GUGC--CAUGCCGAAC--AGCCCAACGUUAG--------GGGC-----ACGAAAGGUGCACC--------------------------------AGUAAUA--GGUUCACC----AUUGUGG-UAAC-------AUUGCAU------CGA-----CGCGUUAGUC-AAAGAGCAGUGGUAU-A---GUGC--------GAAGGUA-----CACUGAGGGACUAGG--CUGACGGUCAUA----------------GUGC--GAC-------------------------UGU--AAACAAAGCAUGUU-GUGCAC--CCCACACCUCCCUGCUGGACGUGGGUUCAAUUCCCACCAUCUCCAGGC
+CR522870_1_569610-569245     GGGGGCGAA-ACGGCUUCGACGGGGAUGUAUAA-GCUCU-ACGUUG-CAUGUCGAGCAACUGCCA--GCUCGUAAAAA-AGGCGGAACUAAUAUAAUCGCAGACGAUUAUAAC-------UACGCAGUA--GCAGCUUAAUAA-CUGUCAUACUG-CCGUCUC-UCCAGUCCUCCGCUCAU-GAGGGUUGGG-U-CCGAGGCGUC--GACCAAAAUGAGC--UAGCAAUCGGGUGU------GUUCU--GGUGCCCCGGCGCGAAAAUAUACAGAAUA--GCGUUAUAGUA-UCCUGUUC-CGACGGA-AGCUAAAUCGCGAAA-ACUAAGUGG-GAACUAAACAUGUA-GAUACGAG-AGGGG-AGCAUUUGCGGACGCGGGUUCGACUCCCGCCGCCUCCACCA
+CP000046_1_875955-876313     GGGGACGUUCAUGGAUUCGACAGGGGUCCCC--CGAGCUCAUUAAG-CGUGUCGGAG-GGUUGU---CUUCGUCAUCCACACAGUU--UAUAAUAACUGGCAAAUCAAACAAUAA-----UUUCGCAGUAGCUGC-CUAAUC--GCA-CUCUGC---AUCGCC-AACA-GCAUU-UCCUAU--GUGC-UGUUA---ACGCGAUUCAA-C-CUUAAUAGGAUAUGCUAAACACUG---C-CGUUUGA-----AGUCUGUUUAGAAGAACU-UAAUCAAACUGCAUCAUGUU--GGUUGUUUAUC--ACUU-UUCAUGAUGCGAAA-C-CUAUCGAUAAACUACACACGUA-GAAAGAUGUGUAU-CAGGACCUUUGGACGCGGGUUCAAAUCCCGCCGUCUCCA---
+AY911522_1_1-341             ---------------------GCCGGUAGCGAA-ACUCU---AGGUGCAUGCCGAGUGGUAACAG-AACUCGUAAAUCACUGUUGCCUUUCUAUAGUUGCCAAUGACGAAACCUACGGACCUACGCUCUCGCAGC-GUAA----GUGACCUUUGCUGCAAUCAC-----GGGGAUGCCUGU-AACCCA--------CUGAUUGUCAU--ACAGAACAGGAUC----GUCGCG---UAGCACGUUGUGGCGA---AGUGACUAAAA---CUUACACAACUCAUCCAAAGC-ACCCU-GCCC--GUCGGG-CGGCUGCGGAUUAAAUCAGUAGACA-CGGCUACGCAUGUAGUACCG--ACAGCGG-AGUACUGGC--------------------------------
+CU928145_2_2978730-2979092   GGGGCUGAUUCUGGAUUCGACGGGAUUUGCGA--AACCCA--AGGUGCAUGCCGAGG-GGCGGUUGGCCUCGUAAA--AAGCCGCA--AAAAAUAGUCGCAAACGACGAAAACUAC--------GCUUUA-GCAGCUUAAUAACCUGCUUAGAGC--CCUCUCUCCCUAGCCUCCGCUC-UU-AGGACGGGGAUCAAGAGAGGUCAAACCCAAAA-GAGAUC-G---CGUGG--AAGCCCUGCCUGGGGUU--GAAGCGUUAAAAC--UUAAUCAGGCUAGUUUG-UUAGUGGCGUGUCC--GUCCGCAGCUGG-CAAGCGAAU-GUAAAGAC--UGACUAAGCAUGUAGUACCG--AGGAUGU-AGGAAUUUCGGACGCGGGUUCAACUCCCGCCAGCUCCACCA
+BA000007_2_3475602-3475964   GGGGCUGAUUCUGGAUUCGACGGGAUUUGCGA--AACCCA--AGGUGCAUGCCGAGG-GGCGGUUGGCCUCGUAAA--AAGCCGCA--AAAAAUAGUCGCAAACGACGAAAACUAC--------GCUUUA-GCAGCUUAAUAACCUGCUUAGAGC--CCUCUCUCCCUAGCCUCCGCUC-UU-AGGACGGGGAUCAAGAGAGGUCAAACCCAAAA-GAGAUC-G---CGUGG--AAGCCCUGCCUGGGGUU--GAAGCGUUAAAAC--UUAAUCAGGCUAGUUUG-UUAGUGGCGUGUCC--GUCCGCAGCUGG-CAAGCGAAU-GUAAAGAC--UGACUAAGCAUGUAGUACCG--AGGACGU-AGGAAUUUCGGACGCGGGUUCAACUCCCGCCAGCUCCACCA
+BX908798_1_630473-630069     GGGGGUGU-UACGGUUUCGACUAGGAA-----UGAAAAAUUGAUUG-CAUGCGGAGGUAUCGGUUGGCCUCCUAAA-AAAACCGGUAAAACAAUAAAUGCUAACAAUAGCAAUAAAAUCUAGAGCUGCGUAAGACCUAACA---GUCUUG-GUAGCC-CGAUAG-UCUGAAACU-GACCGAGGGUUUUAGAAU---CUAUCGUCA----UUUUCUUGGU------AUGAAUUCUUUUCGCCGCUUCUAGGGAAAGUUUUCA-----AUUAAAUGAAGCA----AACUAACGAUUGUUGCGUUCUGCAUAAGUUAGGGAUUUU-------ACAGAACGA-UAAGCAUGUAG-UGGUCAAUUCGUAU--UUGCCAAGGACGAGAGUUCAAUUCUCUCCACCUCCAAUU
+AP008232_1_3071644-3072027   GGGGCUGAUCCUGGACUCGACGGGAUUUGCGA--AACCUA--AGGUGCAUGCCGAGG-UGAGGCUGGCCUCGUAAA--AAACCUCA-AAAAAAUAAUUGCAAACGACUCGCAAUUCGAUAACGCUGCUUUAGCAGCUUAAUCGCUUAAUAACCUGACCCUCUCUCCCUAGCCUCCUCUC-UU-AGGACGGGGAUAAAGAGAGGUCAAACCCAAAA-GAGAUC-G---CGUGG--AUGUCCUGCCUGGGGCU--GAAGCGUUAAAAC---UAAUCAGGCUAGUUUG-UUAGUGGCGUGUCC--GUCCGCAGCUGA-CAGGUGAAU-GUAAAGAC-UGGACUAAGCAUGUAGUGCCG--AAGGCGU-AGAAAUUCCGGACGCGGGUUCAAAUCCCGCCAGCUCCACCA
+AALF02000019_1_36194-36574   GGGGCUGAUUCUGGAUUCGACGGGAUUCGCGA--AACCCA--AGGUGCAUGCCGAGG-UGCGGAG-GCCUCGUAAA--AAACCGCAAAAAAAAUAAUUGCAAACGACUCGCAAUACGAAUCUGCUGCUUUAGCAGCUUAAUCGCCUAAGAAACUGACCCUCUCUCCCUAGCCUCCGCUC-UU-AGGACGGGGAUCAAGAGAGGUCAAACCUAAAA-GAGAUC-G---CGUGG--ACACCUUGCCUGUGGUG--AAAGCGUUAAACC---CAAUCAGGAUAGUUUG-UUAGUGGCGUGUCC--GUCCGCAGCUAA-CCGGCGAAU-GUAAUGAC-UGGACUAAGCAUGUAGUGCCG--ACGGCGU-AGUAAUUUCGGACGGGGGUUCAAAUCCCCCCAGCUCCACCA
+#=GC SS_cons <<<<<<<.............<<<<<<<<........<<<<<<<<...<<<<<.....<<<<<<<<..............>>>>>>>>...................................<<<<<<<<<<<<<.........>>>>>>>>>>>>><<<<<<<<<<<<<<<<<........>>>>>>>>>>>....>>>>>>....................................<<<<<<<<.........................>>>>>>>><<<<<<<<<<.<<<<<<.....>>>>>>..>>>>>>>>>>......................>>>>>......>>>>>>>>......>>>>>>>>...<<<<<.......>>>>>>>>>>>>....
+#=GC RF GGGGguGAu.cuGGaUUCGACgggaguugcGAacaccccuggaggg.CAUGCCGAGG.ggcgguu.gCCUCGUAAAu.Aaaccgcc.AAAAAAUAAuUGCaAACgAcaAaaAcUA.....uuucgcucuaggcgc.UUAAUa.cgcgccuagagc..ccucccucccuaccauucGCccauugguggcgggg...aagggaggUCAa..cuuaAaugGGaUa.Gccgcgcaacuaa.c.cggcuugg..g..gguugcgcggAAaaa.uuaAaaaggcuugccucaugauuagccUGuCc..gUcggcagaucaugaggcgAAaac.AAAgAcauaGACUAAGCAUGUA.GaccuccagggggggaggacuuucGGACGcGGGUUCGAuUCCCgCCacCUCCACCA
+#=GC SS_cons_tr_1 ...............<<<<<<<<<<<<<<<<..........................................................................................................................................................................................................................................................................................................................................>>>>>>>>>>>>>>>>.............................
+#=GC SS_cons_pk_1 ....................................................<<<<<..........>>>>>..............................................................................................................................................................................................................................................................................................................................................
+#=GC SS_cons_pk_2 ...............................................................................................................................................................................<<<<<<.................................>>>>>>..........................................................................................................................................................................................
+#=GC SS_cons_tr_2 ................................................................................................................................................................................................................................<<<<<<<<<<<<<<<<......>>>>>>>>>>>>>>>>................................................................................................................................................
+#=GC SS_cons_tr_3 ........................................................................................................................................................................................................................................................................................................<<<<<<<<<.........................>>>>>>>>>...................................................................
+#=GC cons nnnnnnnnn-nnnnnnnnnnnRnnRRUnnnnnnnRnnYnnnnRnnn-CAUGYCGAGn-nnnnnnn-nnCUCGUnAn--nnnnnnnnnnnnnnAUARYUGCnAAnnAnnRnAnYnn-----nnnnnnnYnnnnnRnnnUAAnn--nYnnYnnnnnn--nnnYYnnnnnn-nnnnn-RYYYnn--Rnnnnnnnn----nnRRnnnUYnn-nnYnnARnRGGnnn-n-nnnnnnn---n-n-nnnnYnnn--nn--nnnnnRnnnRARnn-nnnAnnnARnnnnnnnnnnnnnnnnnnnGYYn-nnnnnnn-nnnnnnnnnRYnnnn-n-nnnnRnnnnRRCUAnRCAUGUA-nRnnnnnRnRnnnn-RRnRnYnnYnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+#=GC conss 4444444440444444444443333333333444111314443113013331313310311113404133333333004311113344311113113313133333333333333000004444333333433334331334001313313133400311331443330333330332331003333433340000113311133340433113333333330404311113000404022213114004400311113113333440331311133124333333333444333433310413333304333333333333330304431314413333111333113033111443231113033131333344444444444444444444444444444444
+#=GC col_entropy_0 0000110111220111000001111102212111011111121111000000000011111102111100000101111110111211111100001000100120121201111111111121112112122111100011111112111122111211111212111212121111111111212121211001111111101121111010111001111111111111111111112111111111111211111111101111111011111011112121122121111111111112122211122122221111121112111111111100010000000011111211211112111111112100000201000010100102001100000111
+#=GC col_entropy_1 ......................................................................................................................................................................................................................................................................................................................................................................................................................
+#=GC col_entropy_2 9999959577019381999997821592082385938388704772907759709724868691928775575552642779737128705305097707595609813081654352228915691762811773750535155581278822826098759081372072503312580356172820183766493698892202483997567756284568999997665677691642297348764287985858457856968949405989582919211829968303676830400138412712023772213860507687593055038577005962858182168842346878272788899193999939999391995999999777
+#=GC col_entropy_3 4444574452734765944447599197726963873476691559205718709609576699691261070703263183596381140900056405440668986197813645201057755545615629910118127197706865653631543373115412469942348385211439659797019455494071968967395714081122862803138609248276468606521496614912112423635570846910679085715831077801566364487765965425484663201355606229275910029175000921013730099837657747312788844147444434344741447544444444
+#=GC cov_SS_cons .....................2...2......................22..........22....................22.............................................................................2........22............22............2.............................................2.............................2.......2....22......................22....2..........................22.......................2...2................................
+#=GC cov_SS_cons_tr_1 ......................................................................................................................................................................................................................................................................................................................................................................................................................
+#=GC cov_SS_cons_pk_1 ....................................................2..2............2..2..............................................................................................................................................................................................................................................................................................................................................
+#=GC cov_SS_cons_pk_2 ..................................................................................................................................................................................2.....................................2.............................................................................................................................................................................................
+#=GC cov_SS_cons_tr_2 ......................................................................................................................................................................................................................................................................................................................................................................................................................
+#=GC cov_SS_cons_tr_3 ..........................................................................................................................................................................................................................................................................................................2.....................................2.....................................................................
+#=GC SUBFAM_pknot1_R2R_LABEL ---------------................------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------................-----------------------------
+#=GC SUBFAM_pknot2_R2R_LABEL ----------------------------------------------------.....----------.....----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#=GC SUBFAM_pknot3_R2R_LABEL -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------......---------------------------------......------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#=GC SUBFAM_pknot4_R2R_LABEL --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------................------................------------------------------------------------------------------------------------------------------------------------------------------------
+#=GC SUBFAM_pknot5_R2R_LABEL --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------.........-------------------------.........-------------------------------------------------------------------
+//

@@ -1,0 +1,34 @@
+
+# Power analysis of CaCoFold structure 
+#
+# Powertype = SINGLE SUBSTITUTIONS
+# covary  left_pos      right_pos    substitutions      power
+#----------------------------------------------------------------
+     *    1		116		30		0.76
+     *    2		115		37		0.82
+     *    3		114		38		0.82
+     *    4		113		37		0.82
+     *    5		112		38		0.82
+     *    6		111		39		0.83
+     *    7		110		42		0.84
+     *    12		32		16		0.54
+     *    13		31		22		0.66
+     *    14		30		32		0.78
+     *    15		29		24		0.69
+     *    17		85		21		0.64
+     *    35		54		36		0.81
+     *    37		52		36		0.81
+     *    38		51		33		0.79
+     *    39		50		25		0.70
+     *    40		49		31		0.77
+     *    86		108		34		0.80
+     *    87		106		43		0.85
+     *    88		105		39		0.83
+     *    90		104		17		0.56
+     *    91		103		8		0.28
+#
+# BPAIRS 22
+# avg substitutions per BP  30.8
+# BPAIRS expected to covary 16.2 +/- 2.0
+# BPAIRS observed to covary 22
+#

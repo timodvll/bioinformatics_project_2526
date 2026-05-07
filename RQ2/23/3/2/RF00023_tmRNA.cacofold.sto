@@ -1,0 +1,169 @@
+# STOCKHOLM 1.0
+#=GF ID tmRNA
+#=GF AC RF00023
+#=GF DE transfer-messenger RNA
+#=GF AU Gardner PP; 0000-0002-7808-1213
+#=GF GA 47.0
+#=GF NC 46.9
+#=GF TC 47.1
+#=GF PI 10Sa_RNA; SsrA
+#=GF SE Published; PMID:19617710
+#=GF SS Published; PMID:19617710
+#=GF TP Gene;
+#=GF BM cmbuild -F CM SEED
+#=GF CB cmcalibrate --mpi CM
+#=GF SM cmsearch --cpu 4 --verbose --nohmmonly -T 16.62 -Z 2958934 CM SEQDB
+#=GF CL CL00001
+#=GF DR SO; 0000584; tmRNA;
+#=GF DR URL; http://merops.sanger.ac.uk/cgi-bin/merops.cgi?id=S14.001;
+#=GF DR GO; 0006401; RNA catabolic process;
+#=GF RN [1]
+#=GF RM 8972778
+#=GF RT Phylogenetic analysis of tmRNA secondary structure.
+#=GF RA Williams KP, Bartel DP
+#=GF RL RNA 1996;2:1306-1310.
+#=GF RN [2]
+#=GF RM 8990402
+#=GF RT Probing the structure of the Escherichia coli 10Sa RNA (tmRNA).
+#=GF RA Felden B, Himeno H, Muto A, McCutcheon JP, Atkins JF, Gesteland RF
+#=GF RL RNA 1997;3:89-103.
+#=GF RN [3]
+#=GF RM 11752287
+#=GF RT The tmRNA Website: invasion by an intron.
+#=GF RA Williams KP
+#=GF RL Nucleic Acids Res 2002;30:179-182.
+#=GF RN [4]
+#=GF RM 12140330
+#=GF RT BRUCE: a program for the detection of transfer-messenger RNA genes in
+#=GF RT nucleotide sequences.
+#=GF RA Laslett D, Canback B, Andersson S
+#=GF RL Nucleic Acids Res 2002;30:3449-3453.
+#=GF RN [5]
+#=GF RM 12520048
+#=GF RT tmRDB (tmRNA database).
+#=GF RA Zwieb C, Gorodkin J, Knudsen B, Burks J, Wower J
+#=GF RL Nucleic Acids Res. 2003;31:446-447.
+#=GF RN [6]
+#=GF RM 19617710
+#=GF RT Variations on the tmRNA gene.
+#=GF RA Mao C, Bhardwaj K, Sharkady SM, Fish RI, Driscoll T, Wower J, Zwieb C,
+#=GF RA Sobral BW, Williams KP
+#=GF RL RNA Biol. 2010;6:355-361.
+#=GF CC Bacterial tmRNA, also known as 10Sa RNA or SsrA, is named for its dual
+#=GF CC tRNA and mRNA-like properties. Its role is to liberate the mRNA from a
+#=GF CC stalled ribosome. To accomplish this part of the tmRNA is used as a
+#=GF CC reading frame that ends in a translation stop signal. The broken mRNA is
+#=GF CC replaced in the ribosome by the tmRNA and translation of the tmRNA leads
+#=GF CC to addition of a proteolysis tag to the incomplete protein enabling
+#=GF CC recognition by a protease. Recently a number of permuted tmRNA genes have
+#=GF CC been found encoded in two parts. tmRNAs have been identified in eubacteria
+#=GF CC and some chloroplasts but are absent from archaeal and eukaryote nuclear
+#=GF CC genomes.
+#=GF WK Transfer-messenger_RNA
+#=GF SQ 477
+
+CP000946_1_1157423-1157061 GGGGCUGAU-UCUGGAUU--CGACGGGAUUUGCGA--------A-ACCCA---AGGUGCAUGCCGAGG-----GGCGGUUG-----GCCUCGUAAA--------AAGCCGCA------AAAAAUAGUCGCAAACGACGAAAACUAC------------------------------------------------------
+AE016822_1_1400978-1400585 GGGGAUGA---UCGGUUU--CGACAUUGUCUGC--------GUG-AGUAUGA-GAAG-CGGGUCGAGG-----ACGCAUG-G--UUAUCUCGUUAACG----AUCCAUGCAA-------AAAAUAAGUGCCAAUUCCAAGAGCACUGUCU--------------------------------------------------
+AF375579_1_1-299           ---------------------------CAUUG---------UCG-CGCAUGA-ACUG-CAACUGGUGG-----UGAUG---------UCACCUAA---------AUCCAUCGCA-GAUAAAUAUAACUGCUAAAAAUAACACUUC-------------------------------------------------------
+AF389947_1_19-339          --------G-------------ACGGGAUUUGCGA--------A-ACCCA---AGGUGCAUGCCGGGG-----GGCGGUUG-----GCCUCGUAAA--------AAGCCGCA-----AAAAAAUAGUCGCAAACGACGAAAACUAC------------------------------------------------------
+AF022186_2_109751-109498   GGGGCUG---AAAGGAUAUUCGACAUAUUAAUUU-CGUGCGCUA-------U-GAUG-CAAGCCGAGA------AUGCUU------AUCUCGUAAAAAA--GCA--GAC-------AAAGAAAUAAAUGCAAACAAUAUUAUUGAAAUUAGCAAUAUUAGAAAACCAGCUCUAGUAGUCUAGC-----------------
+CP000108_1_2092429-2092029 GGGGAUGA--CAGGCUUU--CGACAGGGUAGG---U-----GUA-AGGUGGC-GUUG-CACUCCGAGUUUCAGCAUGGAUG-----GACUCGUUAAAG-----AAGUCUAUG----CAACCUUUAGAUGCAGACGAUUAUUCG---UA----------------------------------------------------
+CP000383_1_1433554-1433957 GGGGUCGA---CAGGAAU--UGACAGGUUGAGU--GA---UUAC--G-UGUG-UAAG-CAUGCAGGCUC---AUGGGAUGA-----GAGCCUUAAAAG-----AUAGUUCCG------AACAAUAAUUGGCGAAGAAUCUUAC---------------------------------------------------------
+BX248583_1_610694-611086   GGGGCUGAU-UUAGGUUU--CGACUGAAUGUCUUU------G-U-GUUUG---CAGUGCAUGUCGAGG-----GGAGAUAG-----GCCUCGUAAAA-------AAAUCUCA------AAAAAUAAUUGCAAAAAAUAAAUAUAAUGA----------------------------------------------------
+AM884176_1_343330-342911   GGGGGUGU--AAAGGUUU--CGACUUAGAA-----A-----UGA-AGCGUUA-AUUG-CAUGCGGAGGG---CGUUGGCUG-----GCCUCCCAAA--------AAGCCGAC----AAAACAAUAAAUGCCGAACCUAAGGCUGAAUGCGAAAUUAUCAGCUU-------------------------------------
+AY082653_1_1-337           ------------------------AGGUUGGCGAAC-----GCU-GCUCUGU-GAUU-CAGGUCGAGA----G-UGAGUC-U---CCUCUCGCAAAUC----CAAGGCUCAAA---ACAAAAGUAAAUGCGAACAAUAUC------GUAAA-------------------------------------------------
+CP000416_1_1289472-1289843 GGGGCCGUU--CUGGAUU--CGACUGGUAUAG---G-----UUG-CGCCCCA-ACUG-CACUCCGUAG-----CGG-CAU-------CUACGUUAA--------AAGGUCC-AG-UUUAAUUAUAACUGCAAAAAAUAAUAACAAUU-----------------------------------------------------
+AF389976_1_18-333          --------G-------------GCAAGAUUCACGA--------A-ACCAA----GGUGCAUGCCGAGG-----UGCGGUAG-----GCCUCGUUAAC-------AAACCGCA-----AAAAAAUAGUCGCAAACGACGAAAACUAC------------------------------------------------------
+CP000570_1_2853082-2853451 GGGGGCGAC--CUGGUUU--CGACAGGGGUUGUGA-------AG-CGG--CU-AGGG-CAUGUCGAGG-----ACCCGUCA------CCUCGUUAAU-------CAAUGGGA-----AAAACGUAACUGCAAACGACGAUACG---------------------------------------------------------
+CU928164_2_2932788-2933150 GGGGCUGAU-UCUGGAUU--CGACGGGAUUUGCGA--------A-ACCCA---AGGUGCAUGCCGAGG-----GGCGGUUG-----GCCUCGUAAA--------AAGCCGCA------AAAAAUAGUCGCAAACGACGAAAACUAC------------------------------------------------------
+#=GC SS_cons               [[[[[[[,,,,,,,,,,,,,,,,((((((((((--(-----(((-(((((((-((---(((((,,,,,,,,,<<<<<<<<_________________________>>>>>>>---->,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,<<<--------------------------------------------------
+#=GC RF                    GGGGguGAu..cuGGaUU..CGACgggaguugcGA......aca.ccccugg.aggg.CAUGCCGAGG.....ggcgguu......gCCUCGUAAAu.......Aaaccgcc.....AAAAAAUAAuUGCaAACgAcaAaaAcUA.......................................................
+#=GC SS_cons_1             :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<<<<<----<<<____>>----->>>>>>::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC SS_cons_2             ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC SS_cons_3             ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC SS_cons_4             ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+CP000946_1_1157423-1157061 -----------------------------------------------------------------------------------------------------------------------GCUUUA-GCAG-------------------------------------CUUAAUA--------------------ACCUGC
+AE016822_1_1400978-1400585 ---------------------------------------------------------------------------------------------------------------CGGCCAAGGCCGACUUCGCCCUC-----------------------------GCGGCGUAAGUUCA--------------CCUCAGCCA
+AF375579_1_1-299           -------------------------------------------------------------------------------------------------------------------UUACGCACUCGCUGC--------------------------------------CUAAAC---------------------ACCAG
+AF389947_1_19-339          -----------------------------------------------------------------------------------------------------------------------GCUUUA-GCAG-------------------------------------CUUAAUA--------------------ACCUGC
+AF022186_2_109751-109498   ------------------------------------------------------------------------------CUGAUUCAGUUAUUUCUAAAUUAUUUAUGUUAUGUUAU------------------------------------------------------------------------------------
+CP000108_1_2092429-2092029 ------------------------------------------------------------------------------------------------------------------UGCAAUGGCUGCCUAA--------------------------------------------UUAGCAA------AAGUUAAU-UAAC
+CP000383_1_1433554-1433957 -----------------------------------------------------------------------------------------------------------------------GCCAUGGCUGCUUAAUUACGAACUAA------GUUUGUAAUAAUGAGCGUUGAGUGGAGCUGUUAAGAACAGCACC--CGG
+BX248583_1_610694-611086   -----------------------------------------------------------------------------------------------------------------ACCUG--UUGCAUUAGCA-----------------------------------GCUUAAUU--------------------GGGUUA
+AM884176_1_343330-342911   --------------------------------------------------------------------------------------------------CGCUGAUCUCGAAGAUCUAAGAGUAGCUGCUU-------------------------------------AAUUAGC--------------------A-AAGU
+AY082653_1_1-337           ---------------------------------------------------------------------------------------------------------------AUUUGCUCGUAAGGAAGCC-------------------------------------CUAG------------------------UUGCU
+CP000416_1_1289472-1289843 ------------------------------------------------------------------------------------------------------------------CUUACGCUUUAGCUGC--------------------------------------UUAAUA---------------------GGCGC
+AF389976_1_18-333          -----------------------------------------------------------------------------------------------------------------------GCACUC-GCAG-------------------------------------CUUAAUA--------------------ACCUGC
+CP000570_1_2853082-2853451 -------------------------------------------------------------------------------------------------------------------UUCGCACUGGCAGCC---------------------------------------UAAG-----------------------GGCC
+CU928164_2_2932788-2933150 -----------------------------------------------------------------------------------------------------------------------GCUUUA-GCAG-------------------------------------CUUAAUA--------------------ACCUGC
+#=GC SS_cons               ---------------------------------------------------------------------------------------------------------------<<<<<<<<<<<<<<<<<<<-------------------------------------<<_________________________>>>>>>
+#=GC RF                    ...................................................................................................................uuucgcucuaggcgc......................................UUAAUa.....................cgcgc
+#=GC SS_cons_1             ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC SS_cons_2             ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC SS_cons_3             ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC SS_cons_4             ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+CP000946_1_1157423-1157061 UUAGAGC---------------------------------------------------------------------CCUCUCU-------------CCCUA--GCCUCC-----GCUC-UU------AGGA----CGGGGAU--------------------------------------------------------CA
+AE016822_1_1400978-1400585 UCUGAAGAG-----------------------------------------------------------------GCCGUCAG--------------------ACCGGGAA--CUGUUCUCUA----CCCGGA--GC----------------------------------------------------------------
+AF375579_1_1-299           CUUGCGU---------------------------------------------------------------------AGCUGAU--------------GAU---CGUUC------GCCGAU-------GGCG-----GCC------------------------------------------------------------U
+AF389947_1_19-339          UAAGAGC---------------------------------------------------------------------CCUCUCU-------------CCCUA--GCUUCC-----GCUC-UU------AAGA----CGGGGAU--------------------------------------------------------AA
+AF022186_2_109751-109498   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CP000108_1_2092429-2092029 C-AGCCA--------------------------------------------------------------------U--------------------CGCUC-UUCAGCGGAGGCGCUUACUCCAAGGCUGUU--AGAGUGGCAUAAUUCGCGCUU------------------------------GAGCUCUGCUCGCGC
+CP000383_1_1433554-1433957 CCA--------------------------------------------------------------------------CAUCUC--------------ACAC---GGCUUC---UGUUCUGC-----GGGCU----GUGA--A--------------------------------------------------------CU
+BX248583_1_610694-611086   AUAACCUAAAG-------------------------------------------------------------GUUCCCUCUUA------------AUUUU---UUUGUU-----ACUCUUA-----ACAAG-----AAAAUCAUUA-------------------------------------------------UCUCA
+AM884176_1_343330-342911   UGUUACCUAAAUAC------------------------------------------------------GGGUGACC-CGGUG--------------UUCGC--GAGCU-----CCACCAGA-----GGUUU----UCGAA------------------------------------------------------------
+AY082653_1_1-337           GCCUAAUAGCCUCUUAU-------------------------------------------------AGGUCCGAGC-------------------GUCUUU--AGUCCG----ACUCCGUUA---AGGGCU----AGAGAC----------------------------------------------------------C
+CP000416_1_1289472-1289843 UUAACG---------------------------------------------------------------------UAGAUCCU-------------CCUA---GGCUU------GUCCGU-------GGUC-----UAGAU----------------------------------------------------------C
+AF389976_1_18-333          GCUGAGC---------------------------------------------------------------------CCUUCUC-------------CCCU--AGCUUGC-----CUGU-GUC----CUAG------GGAAU-----------------------------------------------------------
+CP000570_1_2853082-2853451 GCCGU-----------------------------------------------------------------------CCUCUGC------------CUAGUU-C-----------ACUGACG--------------GGCUAGUGUCGCAAGACCG---------------------------------GUAGCAAUACCGA
+CU928164_2_2932788-2933150 UUAGAGC---------------------------------------------------------------------CCUCUCU-------------CCCUA--GCCUCC-----GCUC-UU------AGGA----CGGGGAU--------------------------------------------------------CA
+#=GC SS_cons               >>>>>>>------------------------------------------------------------------->>>>>>>>>------------->>,,,,,,,,,,,,,,,,<<<<<<<-----<<<<______________________________________________________________________
+#=GC RF                    cuagagc.....................................................................ccucccu.............cccua..ccauuc.....GCccauu.....ggugg....cgggg...........................................................a
+#=GC SS_cons_1             ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC SS_cons_2             ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<<<<<<______________________________________________________________________________________________________________________
+#=GC SS_cons_3             ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<-------------<<<<<--<<<<<<----<<____>>>---->>>>>---->>>>>>:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC SS_cons_4             ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+CP000946_1_1157423-1157061 AGAGAGGUCAAA--CCCAAAA-GAGAUC----------------------------------G---CGUGG---AAGC---CCUGCCUGGG-------------------GUU---GAAGCGUUAAA-AC----UUAAUCAGGCUA---GUUUG-UUAG---UGGCG---UGUCC--GUC---C-GCA---GCUGG-CAA
+AE016822_1_1400978-1400585 -CUGGCGUCAG------UGAGAGAACU-C---------------------------------GCUUCUGCGUU---------GAGUAUC----------------------A-G-GGCGCAGAGGGA-CUU---CAACUGAUACUA---GGCCCGC---CGGAACAG--GUGCCAGCGAC---A-CGUUCCG-----GGG
+AF375579_1_1-299           GAAGCUCUAAA----CCUCAGUCGGAUAC---------------------------------GUUUUUAUG-----------GUGGCUU----------------------U----ACAUAAAAAAA-GAG---AUUUUAAAGCAC--CGCAAAUUUCU---GCUGUU-UGAGACUGGC----U-UU-----GGAAAUUU
+AF389947_1_19-339          AGAGAGGUCAAA--CCCAAAA-GAGAUC----------------------------------G---CGCGG---AUGU---CCUGCCUGGG-------------------GCU---GAAGUGCUAAA-AC-----UAAUCAGGCUA---GUUCG-UUAG---UGGCG---UGUCU--GNC---C-GCA---GCUGG-CGU
+AF022186_2_109751-109498   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CP000108_1_2092429-2092029 ------------------AAGUAAGC----------------------------------------UCCGUUUUGUAU----UGCCUGAU--------------------GUGCUUAGCGGG--------U--AUUUAUUCGGGAU------AGUAAGUU-GAACG----UUACAAGUG----U-CGUACCAACUUAUGA
+CP000383_1_1433554-1433957 GAGAUGUCG------AACAGCAGGAC--------------------------------------UAGGGGAGUACA------AGUUGCG-----------------------GGUGCUUCGC--------G--AAAUUAAGUAACU----AAGGUUAUAGUUGGG------UGCCGGUG-------ACCUGCUACAGCUC
+BX248583_1_610694-611086   UAAGAGGUCUA---UAAAUAA-GAGCGC-------------------------------------UCAUUA---UAAA---GU-GC-CUAAC-----------------UCUA----UAAUGAUAAG-AAUA-AAAAUUAGAGCUA---AUUGAUUAAU----UGAC--AUGAUC-UUAA---G-UC----AUUUU-UCA
+AM884176_1_343330-342911   ACACCGUCA------UGUAUCUGGU---------------------------------------UAGAACUUGGGUCCU-UUAAUUCUCGA-------------------GGAAAUGAGUUUGA------AA-UUUAAUGAGAGU------CGUUA-GUCUCUAUAG---GGGUUUCUAG---C-UGAGGAGACAUAACG
+AY082653_1_1-337           --AACCCC-----------AACGGAUG-----------------------------------CUCUAGCAAGUAUU------CUCUGGU------------------------UGACUUGCUAGCUA-AG----ACUUAAUCAGAG--C---------------------------------------------------
+CP000416_1_1289472-1289843 UGGGUCCUAAA-----UUUAACGGACUUA--------------------------------CGCUAACGACUC----C----CACCUGA---------------------------AGUACGUUAGA-AGAG-AA-AAAUCAGGUU--AGCUGUUCAUGU--GGGCC--CUGACAGGC-----G-GCA---AGUUGGGCA
+AF389976_1_18-333          UGGAAGGUCAU---CCUUCAC-AGGAUC-------------------------------------GUGUGG---AAGU---CCUGCUCGGG-------------------GCG---GAAGCAUUAAA-AC-----CAAUCGAGCUA---GUAA-UGCGU----GGCG---UGUCU--CUC---C-GC----AGCGUGUUG
+CP000570_1_2853082-2853451 -CAGAGGUC-----AUAUACGUCAGUUA----------------------------------AGCCUGUCCGGC-----------GUCAC--------------------GA----CGGACAGGUCG-AAA--AUCAAGUGAAUCG----CCGUAACGG----AGCG---UGUUC--GUC---C-GCG----ACGUCACG
+CU928164_2_2932788-2933150 AGAGAGGUCAAA--CCCAAAA-GAGAUC----------------------------------G---CGUGG---AAGC---CCUGCCUGGG-------------------GUU---GAAGCGUUAAA-AC----UUAAUCAGGCUA---GUUUG-UUAG---UGGCG---UGUCC--GUC---C-GCA---GCUGG-CAA
+#=GC SS_cons               ______________>>>>->>>>>>>,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,<<<<<<<<<<<<<<<<---<<<<<<<<<________________________________________________>>>>>>>>--->>>>>>>>>>>->>>>>>,,,,<<<<<<<<<---<________________
+#=GC RF                    agggaggUCAa....cuuaAaugGGaUa..................................Gccgcgcaacu.aa.c....cggcuugg.....................g...gguugcgcggAA.aaa...uuaAaaaggcuu...gccucaugau...uagcc...UGuCc..gUc...g.gca...gaucaugag
+#=GC SS_cons_1             ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC SS_cons_2             _>>>>>>:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC SS_cons_3             ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC SS_cons_4             :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<<<<<<<<<<<<<<<---<<______>>------------------->>>>>>>>>>>>>>>:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+CP000946_1_1157423-1157061 GCGAAU---------------------------------------------------GUAAAGAC--UGAC---UA---AGCAUGUA--GUACCG--AGGAUGU-------AGGAAUUUCGGA-CGCGGGUUCAACUCCCGC-CAGCUCCACCA
+AE016822_1_1400978-1400585 CCGAGAAAG----------------------------------------------CGA----CACACUGGC---UA---CGCCCGUA----GAAGGCAUAUGAC-------CACAGCAGUGGA-CGGGGGUUCGAUUCCCCC-CAUCUCCACCA
+AF375579_1_1-299           GUUAAACU------------------------------------------------AG----AGAAAGUCC---UA---UGGUUGUA---GACGUUGAUGUAG-------CAAGGUG-------------------------------------
+AF389947_1_19-339          GCGAAU---------------------------------------------------GUAAAGAC--UGAC---UA---AGCAUGUA--GUACCG--AGGAUGU-------AGGAAUUUCGGA-CGCG-------------------------G
+AF022186_2_109751-109498   -------------------------------------------------------------------------UUA---AGCUUGU------AGUAACUAUCUAGUG-UACAAUUUCUAUGGA-CGUGGGUUCAAUUCCCAC-CAGCUCCACAA
+CP000108_1_2092429-2092029 AUCUUA-------------------------------------------------------AACACUUGA----GA---UGAGUGUG--G-UAGCGUUAUCAAGC-----A--AUAUUCUGGA-CGCGGGUUCGAAUCCCGC-CAUCUCCACCA
+CP000383_1_1433554-1433957 GAAAAUG--------------------------------------------------A---ACAUCCGGC----UA---AGCAUGUA--G-AAGAUUCGAUAGUG-----G-CCUUCUCUGGA-CGAGAGUUCGAAUCUCUC-CGACUCCACAC
+BX248583_1_610694-611086   AUAAAA---------------------------------------------------U--AUUAA-AGAUC---UA---AACAUGUA--GUAUCU-GGAAAAUA------UAAGAAUUCUGGA-CGCGGGUUCGAAUCCCGC-CAGCUCCAUUU
+AM884176_1_343330-342911   UAUAGU---------------------------------------------------A---CCUAGGAAC----UA---AGCAUGUA--G-AGGUUAGCGGGGAG-----U--UUACUAAGGA-CGAGAGUUCGACUCUCUC-CACCUCCAUAG
+AY082653_1_1-337           ------AUCCUACGUUCGGGAUAAUGAACGA--UUCCCGCCUUGAGGGUCAGAUAGGC----------------UA---AACCUGU----GAAUGAGCGGAGGGUC--AAUACCCAAUUU----------------------------------
+CP000416_1_1289472-1289843 GUGAAACC------------------------------------------------UU-AAGUAGUCUGAA---UA---UGAGUGUA---GACGUUGGGGUGG-------CAAUAUGCUAGGA-CGCGGGUUCGAUCCCCGC-CGGCUCCAUAU
+AF389976_1_18-333          GCGAAU---------------------------------------------------GUAAAGAG--UGAC---UA---AGCAUGUA--GUACCG--AGGAUGU-------AGUAAUUUUGGA-CGGG-------------------------G
+CP000570_1_2853082-2853451 GUUAAAU--------------------------------------------------CAAAUGACA-GAAC---UA---AACAUGUA---GAACUGG--UCGUG------GACCGCUUCUGGA-CGCGGGUUCGAUUCCCGC-CGCCUCCACCA
+CU928164_2_2932788-2933150 GCGAAU---------------------------------------------------GUAAAGAC--UGAC---UA---AGCAUGUA--GUACCG--AGGAUGU-------AGGAAUUUCGGA-CGCGGGUUCAACUCCCGC-CAGCUCCACCA
+#=GC SS_cons               _____________________________________________________________>>>>>>>>>>,,,,,,,,,)))))--------))))))))))))-----))))))))))),,,,<<<<<_______>>>>>,]]]]]]]::::
+#=GC RF                    gcgAAaa..................................................c.AAAgAcauaGAC...UA...AGCAUGUA...Gaccuccagggggg......gaggacuuucGGA.CGcGGGUUCGAuUCCCgC.CacCUCCACCA
+#=GC SS_cons_1             ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC SS_cons_2             ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC SS_cons_3             ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC SS_cons_4             ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+//
